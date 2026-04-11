@@ -1,0 +1,1602 @@
+[
+  {
+    "question": "What is the maximum loan-to-value ratio permitted for residential mortgage loans under current policy?",
+    "ground_truth": "The maximum loan-to-value ratio for residential mortgage loans is 80% for conventional loans and 95% for loans with private mortgage insurance, as defined in the Residential Lending Policy section 4.2.",
+    "contexts": [
+      "Section 4.2 — Residential Lending Policy: Conventional residential mortgage loans shall not exceed a loan-to-value (LTV) ratio of 80% at origination. Loans with an LTV above 80% require private mortgage insurance (PMI) and are subject to a maximum LTV of 95%.",
+      "Section 4.3 — LTV Calculation: The LTV ratio is calculated as the loan amount divided by the lesser of the appraised value or the purchase price of the property."
+    ]
+  },
+  {
+    "question": "How is Tier 1 capital defined under the regulatory framework?",
+    "ground_truth": "Tier 1 capital is defined as the core capital of a bank, consisting of common equity Tier 1 (CET1) and additional Tier 1 instruments. CET1 includes common shares, retained earnings, and other comprehensive income after regulatory deductions.",
+    "contexts": [
+      "Regulation 12.1 — Capital Definitions: Tier 1 capital comprises Common Equity Tier 1 (CET1) capital and Additional Tier 1 (AT1) capital instruments approved by the regulator.",
+      "Regulation 12.2 — CET1 Components: CET1 capital includes fully paid-up common shares, retained earnings, accumulated other comprehensive income, and other disclosed reserves, net of regulatory deductions including goodwill, intangible assets, and deferred tax assets."
+    ]
+  },
+  {
+    "question": "What are the quarterly reporting requirements for institutions subject to Basel III?",
+    "ground_truth": "Institutions subject to Basel III must submit quarterly reports including capital adequacy ratios, risk-weighted assets, liquidity coverage ratio, and net stable funding ratio within 30 days of quarter-end to the relevant regulatory authority.",
+    "contexts": [
+      "Basel III Reporting — Section 7.1: Covered institutions must file quarterly regulatory reports no later than 30 calendar days after the close of each fiscal quarter.",
+      "Basel III Reporting — Section 7.2: Required disclosures include Capital Adequacy Ratio (CAR), Risk-Weighted Assets (RWA) by category, Liquidity Coverage Ratio (LCR), Net Stable Funding Ratio (NSFR), and leverage ratio as defined in Annex B."
+    ]
+  },
+  {
+    "question": "What does the policy state regarding insider trading prohibitions?",
+    "ground_truth": "The policy prohibits employees, officers, and directors from trading in securities of the firm or any counterparty while in possession of material non-public information (MNPI). Violations are subject to immediate termination and referral to regulatory authorities.",
+    "contexts": [
+      "Securities Policy — Section 2.1: No employee, officer, or director may purchase or sell, or cause others to purchase or sell, any security of the firm or of any client or counterparty while in possession of material non-public information (MNPI) relating to such security.",
+      "Securities Policy — Section 2.4 — Enforcement: Violations of this policy are grounds for immediate dismissal and will be reported to the SEC and applicable self-regulatory organizations."
+    ]
+  },
+  {
+    "question": "What is the late submission penalty for quarterly regulatory reports?",
+    "ground_truth": "The penalty for late submission of quarterly reports is $500 per day for the first 10 days, escalating to $1,000 per day thereafter, with a maximum cumulative penalty of $50,000 per reporting period.",
+    "contexts": [
+      "Enforcement Schedule — Annex C: Late submission of required quarterly reports incurs a penalty of $500 per calendar day for each of the first 10 days past the filing deadline.",
+      "Enforcement Schedule — Annex C (continued): After 10 days, the daily penalty increases to $1,000. Total penalties for any single quarter shall not exceed $50,000."
+    ]
+  },
+  {
+    "question": "How are credit derivatives valued under the current valuation policy?",
+    "ground_truth": "Credit derivatives must be marked to market daily using observable market inputs where available (Level 1 or Level 2 fair value hierarchy). When market inputs are unavailable, institutions must apply approved internal valuation models with independent model validation.",
+    "contexts": [
+      "Valuation Policy — Section 9.1: All credit derivative positions must be marked to market on a daily basis. Valuations must utilise observable market inputs classified under IFRS 13 as Level 1 or Level 2 in the fair value hierarchy wherever available.",
+      "Valuation Policy — Section 9.3: Where observable inputs are unavailable, institutions must apply internally developed valuation models that have been independently validated by a team separate from the front office and approved by the Risk Committee."
+    ]
+  },
+  {
+    "question": "What disclosures are required for related-party transactions?",
+    "ground_truth": "All related-party transactions above $50,000 must be disclosed in the annual report, including the nature of the relationship, transaction amount, terms, and a statement that the transaction was conducted on an arm's-length basis.",
+    "contexts": [
+      "Disclosure Policy — Section 5.1: Related-party transactions with an aggregate annual value exceeding $50,000 must be disclosed in the firm's annual report.",
+      "Disclosure Policy — Section 5.2: Required disclosure elements include: (a) nature of the relationship; (b) transaction amount; (c) key terms and conditions; (d) confirmation that the transaction was conducted on arm's-length terms or a description of any deviation from arm's-length pricing."
+    ]
+  },
+  {
+    "question": "What stress-testing methodology is required for market risk?",
+    "ground_truth": "The market risk stress-testing methodology requires institutions to run at least three scenarios quarterly: a historical stress scenario, a hypothetical adverse scenario, and an institution-specific scenario. Results must be reported to the Risk Committee and Board.",
+    "contexts": [
+      "Market Risk Framework — Section 6.2: Institutions must conduct stress testing of market risk exposures at a minimum quarterly frequency using at least three distinct scenarios.",
+      "Market Risk Framework — Section 6.3: Required scenarios are: (1) a historical stress scenario replicating an identified past market dislocation; (2) a hypothetical forward-looking adverse scenario; and (3) an institution-specific scenario. Stress test results must be presented to the Risk Committee and the Board within 15 days of quarter-end."
+    ]
+  },
+  {
+    "question": "How long must trading records be retained under the records retention policy?",
+    "ground_truth": "Trading records must be retained for a minimum of seven years in an unalterable format accessible to regulators upon request.",
+    "contexts": [
+      "Records Retention Policy — Section 3.1: All trading records, including order tickets, trade confirmations, and electronic communications related to trade execution, must be retained for a minimum of seven (7) years from the date of the transaction.",
+      "Records Retention Policy — Section 3.2: Records must be stored in a write-once, read-many (WORM) compliant format and must be producible to regulators within 24 hours of a formal request."
+    ]
+  },
+  {
+    "question": "What are the anti-money-laundering obligations for broker-dealers?",
+    "ground_truth": "Broker-dealers must maintain a written AML compliance program including customer identification procedures, suspicious activity monitoring and SAR filing, annual employee training, and an independent audit every 12–18 months.",
+    "contexts": [
+      "AML Compliance — Section 1.1: All registered broker-dealers must maintain a written AML compliance program approved by senior management, encompassing customer identification procedures consistent with FinCEN requirements.",
+      "AML Compliance — Section 1.3: The AML program must include: (a) monitoring for suspicious activity and timely SAR filing; (b) annual AML training; (c) independent testing every 12 to 18 months."
+    ]
+  },
+  {
+    "question": "What is the minimum capital adequacy ratio required under current regulations?",
+    "ground_truth": "The minimum Total Capital Adequacy Ratio is 8% of risk-weighted assets, with a minimum CET1 of 4.5%, Tier 1 of 6%, plus a capital conservation buffer of 2.5% CET1, giving an effective minimum CET1 of 7%.",
+    "contexts": [
+      "Capital Requirements — Section 2.1: Institutions must maintain a minimum Total Capital Ratio of 8% of risk-weighted assets at all times.",
+      "Capital Requirements — Section 2.2: The minimum CET1 ratio is 4.5% and the minimum Tier 1 ratio is 6%. A Capital Conservation Buffer of 2.5% CET1 must also be maintained, resulting in an effective minimum CET1 of 7%."
+    ]
+  },
+  {
+    "question": "What is the policy for handling customer complaints?",
+    "ground_truth": "Customer complaints must be acknowledged within 2 business days and resolved with a full written response within 30 business days. Unresolved complaints must be escalated to the Compliance Officer after 15 business days.",
+    "contexts": [
+      "Customer Complaints Policy — Section 8.1: A written acknowledgement must be sent within 2 business days of receiving a complaint.",
+      "Customer Complaints Policy — Section 8.3: A final written response must be provided within 30 business days. Complaints unresolved after 15 business days must be escalated to the Chief Compliance Officer."
+    ]
+  },
+  {
+    "question": "How must institutions calculate and report the Liquidity Coverage Ratio?",
+    "ground_truth": "The LCR is calculated as HQLA divided by total net cash outflows over a 30-day stress period and must be at least 100%. It must be reported monthly to the regulator by the 15th business day following the reference date.",
+    "contexts": [
+      "Liquidity Framework — Section 4.1: LCR = HQLA / Total Net Cash Outflows over 30-day stress period × 100. Institutions must maintain an LCR of at least 100% at all times.",
+      "Liquidity Framework — Section 4.4: The LCR must be reported to the supervisory authority monthly, no later than the 15th business day following the reference date."
+    ]
+  },
+  {
+    "question": "What are the margin requirements for over-the-counter derivatives?",
+    "ground_truth": "Centrally cleared OTC derivatives require initial margin per the CCP's model and daily variation margin. Non-cleared OTC derivatives require initial margin calculated using ISDA SIMM and daily variation margin under a bilateral CSA.",
+    "contexts": [
+      "Derivatives Margin Policy — Section 11.1: Centrally cleared OTC derivatives must post initial margin determined by the CCP and daily variation margin reflecting the full mark-to-market change.",
+      "Derivatives Margin Policy — Section 11.2: Non-cleared OTC derivatives require initial margin calculated using ISDA SIMM and daily variation margin under a Credit Support Annex governed by the ISDA Master Agreement."
+    ]
+  },
+  {
+    "question": "What are the requirements for model risk management?",
+    "ground_truth": "Risk models must be independently validated before deployment and reviewed annually. Material changes require re-validation. A model inventory must be maintained and reviewed by the Model Risk Committee quarterly.",
+    "contexts": [
+      "Model Risk Management — Section 13.1: All quantitative models used for pricing or risk measurement must undergo independent validation by a team segregated from model developers prior to production use.",
+      "Model Risk Management — Section 13.3: Models must be reviewed and re-validated at least annually or after any material change. A complete model inventory must be maintained and reviewed by the Model Risk Committee quarterly."
+    ]
+  },
+  {
+    "question": "What is the maximum concentration limit for single-counterparty credit exposures?",
+    "ground_truth": "Single-counterparty credit exposures must not exceed 25% of the institution's eligible capital base for non-systemically important counterparties, and 15% for systemically important financial institutions.",
+    "contexts": [
+      "Credit Concentration Policy — Section 3.1: Total credit exposure to any single counterparty or group of connected counterparties must not exceed 25% of the institution's eligible capital base.",
+      "Credit Concentration Policy — Section 3.2: For counterparties designated as systemically important financial institutions (SIFIs), the concentration limit is reduced to 15% of eligible capital."
+    ]
+  },
+  {
+    "question": "How must institutions manage and disclose conflicts of interest?",
+    "ground_truth": "Institutions must identify, document, and manage conflicts of interest through a written conflicts policy. Material conflicts must be disclosed to affected clients before providing services. Personal account dealing restrictions apply to all staff.",
+    "contexts": [
+      "Conflicts of Interest Policy — Section 1.1: The firm must maintain a written policy identifying categories of conflicts of interest that may arise and the procedures used to manage them.",
+      "Conflicts of Interest Policy — Section 1.3: Where a conflict cannot be adequately managed, it must be disclosed to the affected client in sufficient detail before providing services. All staff are subject to personal account dealing restrictions as set out in Schedule A."
+    ]
+  },
+  {
+    "question": "What are the Know Your Customer requirements for onboarding new corporate clients?",
+    "ground_truth": "KYC for new corporate clients requires verification of legal entity registration, identification of beneficial owners holding 25% or more, source of funds documentation, and sanctions screening. High-risk clients require enhanced due diligence and senior management approval.",
+    "contexts": [
+      "KYC Policy — Section 2.1: For corporate clients, the firm must obtain and verify the certificate of incorporation, constitutional documents, and identify all beneficial owners with 25% or more ownership or control.",
+      "KYC Policy — Section 2.3: Source of funds and source of wealth documentation must be obtained. All clients must be screened against applicable sanctions lists. High-risk clients require enhanced due diligence and approval from a Senior Manager."
+    ]
+  },
+  {
+    "question": "What is the Net Stable Funding Ratio requirement and how is it calculated?",
+    "ground_truth": "The NSFR must be at least 100% and is calculated as Available Stable Funding divided by Required Stable Funding. It must be reported quarterly to the supervisor.",
+    "contexts": [
+      "Liquidity Framework — Section 5.1: The Net Stable Funding Ratio (NSFR) is defined as: NSFR = Available Stable Funding (ASF) / Required Stable Funding (RSF) × 100. Institutions must maintain an NSFR of at least 100% at all times.",
+      "Liquidity Framework — Section 5.3: The NSFR must be reported to the supervisory authority on a quarterly basis, no later than 30 days after the end of each fiscal quarter."
+    ]
+  },
+  {
+    "question": "What are the governance requirements for the Board Risk Committee?",
+    "ground_truth": "The Board Risk Committee must comprise at least three independent directors, meet at least quarterly, have a documented risk appetite statement, and review all material risk exposures. Minutes must be retained for at least five years.",
+    "contexts": [
+      "Corporate Governance Policy — Section 4.1: The Board Risk Committee must comprise a minimum of three independent non-executive directors. The Committee must meet no less than quarterly.",
+      "Corporate Governance Policy — Section 4.3: The Committee is responsible for overseeing the firm's risk appetite statement, reviewing material risk exposures, and approving the risk management framework. All meeting minutes must be retained for a minimum of five years."
+    ]
+  },
+  {
+    "question": "What are the requirements for operational risk event reporting?",
+    "ground_truth": "Operational risk events must be recorded in the loss event database within 5 business days of discovery. Events with losses above $100,000 must be reported to the Chief Risk Officer within 24 hours and to the Board Risk Committee at the next scheduled meeting.",
+    "contexts": [
+      "Operational Risk Policy — Section 6.1: All operational risk loss events must be recorded in the firm's loss event database within 5 business days of the event being identified.",
+      "Operational Risk Policy — Section 6.2: Loss events with a gross financial impact exceeding $100,000 must be notified to the Chief Risk Officer within 24 hours and reported to the Board Risk Committee at the next scheduled meeting."
+    ]
+  },
+  {
+    "question": "How must the firm handle a data breach under the cybersecurity policy?",
+    "ground_truth": "A data breach must be contained and assessed within 24 hours of detection. Affected customers must be notified within 72 hours if personal data is compromised. The relevant data protection authority must be notified within 72 hours of becoming aware of the breach.",
+    "contexts": [
+      "Cybersecurity Policy — Section 8.1: Upon detection of a data breach, the Incident Response Team must be activated immediately. Containment and initial impact assessment must be completed within 24 hours.",
+      "Cybersecurity Policy — Section 8.3: If the breach involves personal data, the relevant supervisory authority must be notified within 72 hours. Affected data subjects must be notified without undue delay if the breach is likely to result in high risk to their rights and freedoms."
+    ]
+  },
+  {
+    "question": "What are the requirements for outsourcing material functions?",
+    "ground_truth": "Material outsourcing arrangements require prior Board approval, a written contract with defined SLAs, documented exit strategy, and annual performance review. The firm retains full regulatory responsibility for outsourced activities.",
+    "contexts": [
+      "Outsourcing Policy — Section 2.1: Any proposed outsourcing of material business functions requires prior approval from the Board of Directors and must be documented in a formal written agreement specifying service levels and data protection obligations.",
+      "Outsourcing Policy — Section 2.4: The firm must maintain a documented exit strategy for all material outsourcing arrangements and conduct an annual performance review. Regulatory accountability for the outsourced function remains with the firm."
+    ]
+  },
+  {
+    "question": "What is the policy for large exposure reporting to regulators?",
+    "ground_truth": "Exposures exceeding 10% of eligible capital must be reported to the regulator quarterly. Exposures exceeding the 25% limit must be reported immediately, along with the firm's plan to reduce the exposure below the limit.",
+    "contexts": [
+      "Large Exposures Policy — Section 4.1: Any individual exposure exceeding 10% of the institution's eligible capital base must be reported to the prudential regulator as part of the quarterly large exposures return.",
+      "Large Exposures Policy — Section 4.2: Any exposure that breaches the 25% large exposure limit must be reported to the regulator immediately, together with a remediation plan outlining how and when the exposure will be reduced below the limit."
+    ]
+  },
+  {
+    "question": "How are Value-at-Risk models required to be validated?",
+    "ground_truth": "VaR models must undergo backtesting daily by comparing 1-day 99% VaR against actual P&L. More than four exceptions in 250 trading days triggers a yellow zone review; more than ten triggers a red zone mandatory recalibration.",
+    "contexts": [
+      "Market Risk — VaR Validation Section 7.1: VaR models must be backtested daily. The 1-day 99% VaR estimate must be compared to the actual daily profit or loss for each business day.",
+      "Market Risk — VaR Validation Section 7.2: Four or fewer exceptions in a 250 trading-day window places the model in the green zone. Five to nine exceptions trigger a yellow zone review and possible multiplier increase. Ten or more exceptions require mandatory model recalibration."
+    ]
+  },
+  {
+    "question": "What are the requirements for collateral management in repo transactions?",
+    "ground_truth": "Collateral in repo transactions must be subject to daily mark-to-market and variation margin calls when the margin deficit exceeds the minimum transfer amount. Only eligible securities meeting defined haircut schedules may be used as collateral.",
+    "contexts": [
+      "Collateral Management Policy — Section 5.1: All collateral posted in repurchase agreement transactions must be marked to market on a daily basis. Margin calls must be issued when the collateral deficit exceeds the contractually agreed minimum transfer amount.",
+      "Collateral Management Policy — Section 5.2: Eligible collateral is restricted to securities listed in the approved collateral schedule. Haircuts are applied to each collateral category as specified in Schedule B, updated quarterly by the Risk Committee."
+    ]
+  },
+  {
+    "question": "What disclosure obligations apply to material non-public information received from clients?",
+    "ground_truth": "Material non-public information received from clients must be handled under information barrier procedures. It must not be shared with sales or trading staff and must be logged in the MNPI register within one business day of receipt.",
+    "contexts": [
+      "Information Barriers Policy — Section 3.1: MNPI received in the course of providing advisory services must be treated as confidential and may not be transmitted across information barriers to sales, trading, or research personnel.",
+      "Information Barriers Policy — Section 3.2: All instances of receiving MNPI must be logged in the firm's MNPI register within one business day, including the source, nature of the information, and the names of individuals with access."
+    ]
+  },
+  {
+    "question": "What are the minimum requirements for business continuity planning?",
+    "ground_truth": "Institutions must maintain a Board-approved Business Continuity Plan tested at least annually. The plan must define recovery time objectives for critical systems and provide for alternate processing sites. Results of tests must be reported to the Board.",
+    "contexts": [
+      "Business Continuity Policy — Section 1.1: All institutions must maintain a written Business Continuity Plan (BCP) approved by the Board of Directors and reviewed at least annually.",
+      "Business Continuity Policy — Section 1.3: The BCP must define Recovery Time Objectives (RTOs) and Recovery Point Objectives (RPOs) for each critical business function and system. Alternate processing sites must be identified and tested. Test results must be reported to the Board."
+    ]
+  },
+  {
+    "question": "What are the requirements for third-party vendor risk management?",
+    "ground_truth": "All third-party vendors with access to firm data or systems must complete an information security assessment before engagement and annually thereafter. Vendor contracts must include data protection clauses, audit rights, and incident notification obligations.",
+    "contexts": [
+      "Third-Party Risk Policy — Section 2.1: Any third-party vendor that will have access to the firm's systems, data, or premises must complete an information security risk assessment prior to engagement and on an annual basis thereafter.",
+      "Third-Party Risk Policy — Section 2.3: Vendor agreements must include provisions for data protection compliance, the firm's right to audit, and requirements for the vendor to notify the firm of security incidents within 24 hours of discovery."
+    ]
+  },
+  {
+    "question": "How must interest rate risk in the banking book be managed?",
+    "ground_truth": "IRRBB must be measured at least monthly using both economic value of equity and net interest income scenarios. Exposures must be reported to ALCO monthly and to the Board quarterly. Limits must be set relative to Tier 1 capital.",
+    "contexts": [
+      "IRRBB Policy — Section 2.1: Interest Rate Risk in the Banking Book must be measured at least monthly using standardised interest rate shock scenarios applied to both economic value of equity (EVE) and net interest income (NII).",
+      "IRRBB Policy — Section 2.3: IRRBB exposures and limit utilisation must be reported to the Asset and Liability Committee (ALCO) monthly and to the Board of Directors on a quarterly basis. Limits must be expressed as a percentage of Tier 1 capital."
+    ]
+  },
+  {
+    "question": "What are the requirements for suspicious transaction reporting?",
+    "ground_truth": "Employees must report suspicious transactions to the MLRO within one business day of forming a suspicion. The MLRO must file a SAR with the financial intelligence unit within 3 business days of receiving the internal report. Tipping off is prohibited.",
+    "contexts": [
+      "AML Policy — Section 4.1: Any employee who knows or suspects that a transaction involves the proceeds of crime must submit an internal suspicious activity report to the Money Laundering Reporting Officer (MLRO) within one business day of forming that suspicion.",
+      "AML Policy — Section 4.2: Upon receiving an internal report, the MLRO must evaluate it and, where there are reasonable grounds for suspicion, file a Suspicious Activity Report (SAR) with the relevant financial intelligence unit within 3 business days. Employees are prohibited from tipping off the subject of the report."
+    ]
+  },
+  {
+    "question": "What are the requirements for fair value measurement under the valuation policy?",
+    "ground_truth": "Fair value must be determined using a three-level hierarchy: Level 1 uses quoted prices in active markets, Level 2 uses observable inputs other than Level 1 prices, and Level 3 uses unobservable inputs. Level 3 valuations require independent price verification quarterly.",
+    "contexts": [
+      "Valuation Policy — Section 3.1: Fair value measurement must follow the three-level hierarchy: Level 1 — quoted prices in active markets for identical assets; Level 2 — inputs other than quoted prices that are observable either directly or indirectly; Level 3 — unobservable inputs.",
+      "Valuation Policy — Section 3.4: Positions classified at Level 3 must be subject to independent price verification by a team independent of the front office at least quarterly, with results reported to the Valuation Committee."
+    ]
+  },
+  {
+    "question": "What are the capital requirements for counterparty credit risk in derivatives?",
+    "ground_truth": "Counterparty credit risk capital must be calculated using either the Standardised Approach for Counterparty Credit Risk (SA-CCR) or an approved Internal Model Method. CVA capital must be calculated separately and added to the CCR capital charge.",
+    "contexts": [
+      "Counterparty Credit Risk — Section 8.1: Institutions must calculate regulatory capital for counterparty credit risk using the Standardised Approach for Counterparty Credit Risk (SA-CCR) or, with supervisory approval, an Internal Model Method (IMM).",
+      "Counterparty Credit Risk — Section 8.3: A separate Credit Valuation Adjustment (CVA) capital charge must be calculated and held in addition to the CCR capital requirement, reflecting the risk of mark-to-market losses due to credit quality deterioration of counterparties."
+    ]
+  },
+  {
+    "question": "What are the remuneration policy requirements for risk takers?",
+    "ground_truth": "At least 50% of variable remuneration for material risk takers must be in instruments linked to firm performance. A minimum of 40% must be deferred for at least three years, with clawback provisions operative for up to seven years.",
+    "contexts": [
+      "Remuneration Policy — Section 6.1: For identified material risk takers, at least 50% of variable remuneration must be awarded in instruments linked to the long-term value of the firm.",
+      "Remuneration Policy — Section 6.3: A minimum of 40% of variable remuneration for material risk takers must be deferred for a minimum period of three years. Clawback provisions must be operative for up to seven years from the award date."
+    ]
+  },
+  {
+    "question": "How must the firm assess and document its Internal Capital Adequacy Assessment Process?",
+    "ground_truth": "The ICAAP must be conducted annually, approved by the Board, and submitted to the supervisory authority upon request. It must cover all material risks, stress test capital adequacy under adverse scenarios, and set internal capital targets above regulatory minima.",
+    "contexts": [
+      "ICAAP Policy — Section 1.1: The firm must conduct an Internal Capital Adequacy Assessment Process (ICAAP) at least annually. The ICAAP document must be approved by the Board of Directors and made available to the supervisory authority upon request.",
+      "ICAAP Policy — Section 1.3: The ICAAP must identify and assess all material risks faced by the firm, demonstrate capital adequacy under a range of stress scenarios, and establish internal capital targets that exceed regulatory minimum requirements by an appropriate buffer."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing foreign exchange risk in the trading book?",
+    "ground_truth": "Foreign exchange positions must be measured daily using Value-at-Risk and sensitivity metrics. Overnight open positions must not exceed limits set by the Risk Committee. Losses breaching stop-loss thresholds must trigger immediate position reduction.",
+    "contexts": [
+      "FX Trading Policy — Section 4.1: All foreign exchange positions in the trading book must be measured daily using VaR and first-order sensitivities (delta). Limit utilisation must be reported to the desk head and risk control each morning.",
+      "FX Trading Policy — Section 4.3: Overnight open positions must remain within limits approved by the Risk Committee. Any unrealised loss breaching the defined stop-loss threshold requires the trader to reduce the position immediately and notify risk management."
+    ]
+  },
+  {
+    "question": "What are the requirements for the annual financial statement audit?",
+    "ground_truth": "The annual financial statements must be audited by an external auditor approved by the Board Audit Committee. The audit must be completed within 90 days of the fiscal year-end and the auditor's report must be presented to the full Board.",
+    "contexts": [
+      "Audit Policy — Section 3.1: The firm's annual financial statements must be audited by an independent external auditor appointed by and reporting to the Board Audit Committee.",
+      "Audit Policy — Section 3.3: The external audit must be completed and the auditor's report issued within 90 days of the close of the fiscal year. The auditor must present the findings directly to the Board of Directors."
+    ]
+  },
+  {
+    "question": "What are the reporting requirements for material adverse changes in financial condition?",
+    "ground_truth": "The firm must notify the prudential regulator within 3 business days of becoming aware of any material adverse change in its financial condition, capital ratios, or liquidity position that breaches regulatory thresholds.",
+    "contexts": [
+      "Regulatory Reporting Policy — Section 9.1: The firm must promptly notify the prudential regulator of any material adverse change in its financial condition, including breaches of minimum capital or liquidity requirements.",
+      "Regulatory Reporting Policy — Section 9.2: Notification must be made within 3 business days of the firm becoming aware of the adverse change, and must include the nature of the change, its estimated financial impact, and proposed remediation measures."
+    ]
+  },
+  {
+    "question": "How are equity securities in the available-for-sale portfolio accounted for?",
+    "ground_truth": "AFS equity securities are measured at fair value with unrealised gains and losses recorded in other comprehensive income until disposal or impairment. Impairment losses are recognised in profit or loss and may not be reversed.",
+    "contexts": [
+      "Investment Accounting Policy — Section 2.1: Equity securities classified as available-for-sale are measured at fair value at each reporting date. Unrealised gains and losses are recognised in other comprehensive income (OCI) and accumulated in a separate equity reserve.",
+      "Investment Accounting Policy — Section 2.3: When an AFS equity security is impaired, the cumulative loss previously recognised in OCI is reclassified to profit or loss. Impairment losses on equity instruments classified as AFS may not be reversed through profit or loss."
+    ]
+  },
+  {
+    "question": "What are the sanctions compliance screening requirements?",
+    "ground_truth": "All customers, counterparties, and transactions must be screened against applicable sanctions lists before onboarding and before processing transactions. Positive matches must be escalated to Compliance immediately and transactions must be blocked pending review.",
+    "contexts": [
+      "Sanctions Compliance Policy — Section 1.1: The firm must screen all customers, counterparties, and beneficial owners against applicable sanctions lists maintained by OFAC, the EU, HM Treasury, and the UN Security Council prior to onboarding.",
+      "Sanctions Compliance Policy — Section 1.3: All transactions must be screened against applicable sanctions lists in real time or prior to processing. Potential matches must be escalated to the Compliance department immediately and the transaction must be blocked pending a determination."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing credit risk in the loan portfolio?",
+    "ground_truth": "Loan portfolios must be subject to quarterly credit quality reviews. Loans showing signs of impairment must be placed on a watchlist within 30 days. Provisions must be calculated using an expected credit loss model and reviewed by the Credit Committee.",
+    "contexts": [
+      "Credit Risk Policy — Section 5.1: The loan portfolio must be subject to a formal credit quality review at least quarterly, assessing the credit risk of individual borrowers and portfolio concentrations.",
+      "Credit Risk Policy — Section 5.3: Loans exhibiting objective evidence of impairment must be placed on the watchlist within 30 days of identification. Loan loss provisions must be calculated using an expected credit loss (ECL) model consistent with IFRS 9 and reviewed by the Credit Committee."
+    ]
+  },
+  {
+    "question": "What are the policy requirements for anti-bribery and corruption?",
+    "ground_truth": "The firm prohibits all forms of bribery and corruption. Gifts and hospitality above $150 must be recorded in the gifts register and approved by the Compliance department. Facilitation payments are prohibited in all circumstances.",
+    "contexts": [
+      "Anti-Bribery and Corruption Policy — Section 1.1: The firm has a zero-tolerance policy toward bribery and corruption in all its forms. No employee may offer, pay, seek, or accept any bribe or improper payment.",
+      "Anti-Bribery and Corruption Policy — Section 1.4: Gifts and entertainment with a value exceeding $150 received from or given to any third party must be recorded in the firm's gifts and hospitality register and approved by the Compliance department prior to or promptly after receipt. Facilitation payments are prohibited under all circumstances."
+    ]
+  },
+  {
+    "question": "What are the requirements for margin lending to retail clients?",
+    "ground_truth": "Margin loans to retail clients must not exceed 50% of the value of eligible collateral securities. Margin calls must be issued when the loan-to-value ratio exceeds 70%. If no remediation occurs within 2 business days, the firm may liquidate collateral.",
+    "contexts": [
+      "Margin Lending Policy — Retail Section 3.1: Initial margin loans to retail clients must not exceed 50% of the market value of eligible collateral securities held in the margin account.",
+      "Margin Lending Policy — Retail Section 3.3: A margin call must be issued when the loan-to-value ratio exceeds 70%. If the client fails to deposit additional collateral or reduce the loan balance within 2 business days, the firm may sell collateral securities to restore compliance."
+    ]
+  },
+  {
+    "question": "What are the requirements for the internal audit function?",
+    "ground_truth": "The internal audit function must be independent of management, report directly to the Board Audit Committee, and conduct a risk-based audit plan covering all material risks annually. Audit findings must be tracked to closure within agreed timeframes.",
+    "contexts": [
+      "Internal Audit Policy — Section 2.1: The internal audit function must maintain organisational independence from business management and report directly to the Board Audit Committee.",
+      "Internal Audit Policy — Section 2.3: Internal audit must prepare and execute a risk-based annual audit plan approved by the Audit Committee, ensuring all material risk areas are covered at least annually. Management must remediate audit findings within agreed timeframes and internal audit must track closure."
+    ]
+  },
+  {
+    "question": "How must the firm manage and report market risk limits?",
+    "ground_truth": "Market risk limits including VaR, sensitivity, and stop-loss limits must be approved by the Board Risk Committee annually. Limit utilisation must be reported daily to risk management. Breaches must be escalated immediately to the CRO and resolved within 2 business days.",
+    "contexts": [
+      "Market Risk Limit Policy — Section 3.1: The suite of market risk limits — including VaR limits, Greek sensitivity limits, and stop-loss limits — must be approved by the Board Risk Committee on an annual basis.",
+      "Market Risk Limit Policy — Section 3.3: Limit utilisation must be calculated and reported to risk management on a daily basis. Any breach of a limit must be escalated immediately to the Chief Risk Officer and resolved within 2 business days."
+    ]
+  },
+  {
+    "question": "What are the conditions under which a firm may grant forbearance on a loan?",
+    "ground_truth": "Forbearance may be granted when a borrower demonstrates financial difficulty but remains viable. The arrangement must be documented, time-limited to 12 months initially, reported in the credit management information system, and subject to enhanced monitoring.",
+    "contexts": [
+      "Forbearance Policy — Section 2.1: Forbearance measures may be extended to borrowers experiencing financial difficulty where the firm determines that the borrower remains viable and capable of meeting modified terms.",
+      "Forbearance Policy — Section 2.3: Any forbearance arrangement must be documented in the loan file, flagged in the credit management information system, and limited to an initial period of 12 months. Forborne exposures are subject to enhanced monitoring and must be reviewed at least quarterly."
+    ]
+  },
+  {
+    "question": "What are the requirements for investment suitability assessments for retail clients?",
+    "ground_truth": "Before recommending an investment to a retail client, the firm must assess the client's knowledge and experience, financial situation, investment objectives, and risk tolerance. Products must not be recommended if they are unsuitable for the client's profile.",
+    "contexts": [
+      "Suitability Policy — Section 4.1: Prior to making an investment recommendation to a retail client, the firm must conduct a suitability assessment collecting information on the client's financial knowledge and experience, financial situation, investment objectives, and risk tolerance.",
+      "Suitability Policy — Section 4.3: The firm must not recommend a financial instrument or service to a retail client if it is not suitable for that client based on the collected information. Suitability assessments must be documented and retained for at least five years."
+    ]
+  },
+  {
+    "question": "What governance requirements apply to the firm's risk appetite framework?",
+    "ground_truth": "The risk appetite framework must be reviewed and approved by the Board annually. It must include quantitative limits for all material risk categories and be cascaded to business lines through specific risk limits and KRIs.",
+    "contexts": [
+      "Risk Appetite Framework Policy — Section 1.1: The Board of Directors is responsible for setting and reviewing the firm's risk appetite framework on an annual basis. The framework must be consistent with the firm's strategic objectives and capital plan.",
+      "Risk Appetite Framework Policy — Section 1.3: The framework must include quantitative risk appetite statements and limits for each material risk category, including credit, market, liquidity, and operational risk. These must be translated into specific business-line limits and monitored through key risk indicators (KRIs)."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing liquidity risk under stress conditions?",
+    "ground_truth": "Institutions must maintain a liquidity buffer consisting of unencumbered HQLA sufficient to survive a 30-day severe liquidity stress scenario. The buffer must be reviewed monthly by ALCO and held in segregated accounts.",
+    "contexts": [
+      "Liquidity Stress Policy — Section 3.1: Institutions must maintain a liquidity buffer of unencumbered high-quality liquid assets (HQLA) sufficient to meet net cash outflows under a combined 30-day institutional and market-wide liquidity stress scenario.",
+      "Liquidity Stress Policy — Section 3.3: The composition and adequacy of the liquidity buffer must be reviewed by the Asset and Liability Committee (ALCO) monthly. HQLA must be held in designated accounts segregated from assets used for operational purposes."
+    ]
+  },
+  {
+    "question": "What are the policy requirements for correspondent banking relationships?",
+    "ground_truth": "Before establishing a correspondent banking relationship, the firm must conduct enhanced due diligence on the respondent institution including assessment of AML controls, ownership structure, regulatory standing, and geographic risk. Shell bank relationships are prohibited.",
+    "contexts": [
+      "Correspondent Banking Policy — Section 2.1: The firm must conduct enhanced due diligence on prospective respondent institutions before establishing correspondent banking relationships, including assessment of ownership and management, AML/CFT controls, regulatory oversight, and jurisdictional risk.",
+      "Correspondent Banking Policy — Section 2.3: The firm is prohibited from establishing or maintaining correspondent banking relationships with shell banks — institutions with no physical presence in any jurisdiction and which are not affiliated with a regulated financial group."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing settlement risk in securities transactions?",
+    "ground_truth": "Securities transactions must be settled on a delivery-versus-payment basis wherever possible. Failed settlements must be reported to risk management within 24 hours. Positions with settlement failures outstanding for more than 3 days must be bought-in or cash settled.",
+    "contexts": [
+      "Settlement Risk Policy — Section 5.1: The firm must settle securities transactions on a delivery-versus-payment (DVP) basis through recognised central securities depositories or settlement systems wherever operationally feasible.",
+      "Settlement Risk Policy — Section 5.3: Settlement failures must be reported to risk management within 24 hours of the settlement date. Any position with an outstanding settlement failure for more than 3 consecutive business days must be subject to mandatory buy-in or cash settlement."
+    ]
+  },
+  {
+    "question": "What are the requirements for the whistleblowing policy?",
+    "ground_truth": "The firm must maintain a confidential whistleblowing channel accessible to all employees. Whistleblowers are protected against retaliation. All reports must be investigated within 30 business days and findings reported to the Board Audit Committee.",
+    "contexts": [
+      "Whistleblowing Policy — Section 1.1: The firm must provide a confidential reporting channel accessible to all employees, contractors, and third parties to report concerns about actual or suspected misconduct, policy violations, or regulatory breaches.",
+      "Whistleblowing Policy — Section 1.3: The firm prohibits retaliation against any person who makes a good-faith report through the whistleblowing channel. All reports must be investigated within 30 business days and the outcome reported to the Board Audit Committee."
+    ]
+  },
+  {
+    "question": "What are the documentation requirements for derivative transactions?",
+    "ground_truth": "All OTC derivative transactions must be documented under ISDA Master Agreements with Credit Support Annexes before trading commences. Trade confirmations must be sent within one business day of execution. Outstanding unconfirmed trades must be reported to risk management weekly.",
+    "contexts": [
+      "Derivatives Documentation Policy — Section 6.1: The firm must execute ISDA Master Agreements and Credit Support Annexes with all counterparties prior to entering into OTC derivative transactions.",
+      "Derivatives Documentation Policy — Section 6.3: Trade confirmations for OTC derivatives must be sent to counterparties within one business day of execution. The firm must report to risk management weekly on the status of any outstanding unconfirmed trades, with escalation required for any trade unconfirmed for more than 5 business days."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing credit risk in structured finance transactions?",
+    "ground_truth": "Investments in structured finance instruments require prior Credit Committee approval. Due diligence must include analysis of the underlying asset pool, waterfall structure, and stress testing of cash flows. Ongoing monitoring reports must be produced quarterly.",
+    "contexts": [
+      "Structured Finance Policy — Section 7.1: Investment in structured finance instruments, including ABS, MBS, and CDOs, requires approval from the Credit Committee based on documented due diligence.",
+      "Structured Finance Policy — Section 7.3: Due diligence must include analysis of the quality and diversification of the underlying asset pool, assessment of the cash flow waterfall and credit enhancement mechanisms, and stress testing of cash flows under adverse scenarios. Investments must be subject to quarterly monitoring reports."
+    ]
+  },
+  {
+    "question": "What are the requirements for the bank's recovery plan?",
+    "ground_truth": "The recovery plan must identify credible options to restore financial soundness under stress, be approved by the Board, updated annually, and submitted to the supervisory authority. It must include recovery indicators and escalation triggers.",
+    "contexts": [
+      "Recovery Planning Policy — Section 1.1: The firm must maintain a credible and operationally feasible recovery plan approved by the Board of Directors and updated at least annually. The plan must be submitted to the supervisory authority as required.",
+      "Recovery Planning Policy — Section 1.3: The recovery plan must include a suite of early warning indicators and escalation triggers, along with a menu of recovery options — including capital raising, asset sales, and liability management — capable of restoring the firm's financial soundness under a range of stress scenarios."
+    ]
+  },
+  {
+    "question": "How must the firm manage and disclose climate-related financial risks?",
+    "ground_truth": "The firm must assess climate-related risks under both physical and transition risk scenarios annually, disclose material exposures in accordance with TCFD recommendations, and embed climate risk in the ICAAP and stress-testing frameworks.",
+    "contexts": [
+      "Climate Risk Policy — Section 2.1: The firm must conduct an annual assessment of material climate-related financial risks, covering both physical risks (acute and chronic) and transition risks arising from the shift to a lower-carbon economy.",
+      "Climate Risk Policy — Section 2.3: Material climate-related financial risks must be disclosed in the annual report in accordance with the TCFD framework. Climate risk must be incorporated into the ICAAP, stress-testing programme, and risk appetite framework."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing intraday liquidity risk?",
+    "ground_truth": "Institutions must monitor and manage intraday liquidity to meet payment and settlement obligations on time. Intraday liquidity usage must be monitored in real time and reported monthly to ALCO. A minimum intraday liquidity buffer must be maintained.",
+    "contexts": [
+      "Intraday Liquidity Policy — Section 3.1: Institutions must have the capacity to monitor and manage intraday liquidity in real time to ensure they can meet all payment and settlement obligations throughout the business day.",
+      "Intraday Liquidity Policy — Section 3.3: Monthly reports on intraday liquidity usage, peak liquidity requirements, and minimum buffer holdings must be submitted to ALCO. The firm must maintain a minimum intraday liquidity buffer as defined in the liquidity risk appetite."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing conduct risk in sales and advisory activities?",
+    "ground_truth": "Sales staff must complete conduct risk training annually. Call recordings and sales documentation must be retained for seven years. Mystery shopping and file reviews must be conducted quarterly to assess product suitability outcomes.",
+    "contexts": [
+      "Conduct Risk Policy — Section 5.1: All staff engaged in sales or advisory activities must complete mandatory conduct risk training annually. Completion rates must be reported to the Board.",
+      "Conduct Risk Policy — Section 5.3: Call recordings and sales documentation must be retained for a minimum of seven years. The Compliance team must conduct quarterly file reviews and mystery shopping exercises to assess the quality of advice and suitability of product recommendations."
+    ]
+  },
+  {
+    "question": "What are the capital requirements for operational risk under the standardised approach?",
+    "ground_truth": "Under the standardised approach, operational risk capital is calculated as the Business Indicator Component multiplied by the Internal Loss Multiplier. The Business Indicator is split into three components across defined thresholds and applies marginal coefficients.",
+    "contexts": [
+      "Operational Risk Capital — Section 9.1: Under the Standardised Approach (SA), operational risk regulatory capital is calculated as the product of the Business Indicator Component (BIC) and the Internal Loss Multiplier (ILM).",
+      "Operational Risk Capital — Section 9.2: The Business Indicator is divided into three buckets with marginal coefficients of 12%, 15%, and 18% applied to the portions falling within defined BI thresholds. The ILM is derived from the firm's historical loss experience relative to the BI."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing country risk in cross-border exposures?",
+    "ground_truth": "Cross-border exposures must be assessed for country risk using approved country risk ratings. Country limits must be approved by the Board annually. Exposures to high-risk jurisdictions require Credit Committee approval and enhanced monitoring.",
+    "contexts": [
+      "Country Risk Policy — Section 4.1: All cross-border exposures must be assessed against the firm's country risk rating framework, using approved rating methodologies incorporating sovereign, transfer, and convertibility risks.",
+      "Country Risk Policy — Section 4.3: Country exposure limits must be set and approved by the Board of Directors on an annual basis. New exposures to countries rated as high risk require Credit Committee approval, and existing exposures must be subject to enhanced quarterly monitoring."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing reputational risk?",
+    "ground_truth": "The firm must assess reputational risk before entering new business relationships, products, or markets. A Reputational Risk Committee must review material reputational risk events and proposed transactions with potential reputational impact.",
+    "contexts": [
+      "Reputational Risk Policy — Section 2.1: The firm must assess reputational risk implications before entering new significant business relationships, launching new products, or expanding into new markets.",
+      "Reputational Risk Policy — Section 2.3: A Reputational Risk Committee comprising senior management representatives must review and provide approval for transactions or activities identified as carrying material reputational risk, and must review all significant reputational risk events on a post-event basis."
+    ]
+  },
+  {
+    "question": "What are the requirements for periodic review of customer due diligence?",
+    "ground_truth": "Customer due diligence must be reviewed on a risk-based schedule: high-risk customers annually, medium-risk every 2 years, and low-risk every 5 years. Triggered reviews must be conducted when material changes in customer profile are identified.",
+    "contexts": [
+      "Customer Due Diligence Policy — Section 3.1: The firm must conduct periodic reviews of customer due diligence information on a risk-based schedule. High-risk customers must be reviewed annually, medium-risk customers every two years, and low-risk customers every five years.",
+      "Customer Due Diligence Policy — Section 3.3: A triggered review must be conducted promptly when a material change in a customer's risk profile, ownership, or business is identified, regardless of when the scheduled review is due."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing legal risk?",
+    "ground_truth": "All significant contracts must be reviewed by the Legal department before execution. Legal risk exposures including litigation, regulatory actions, and contract disputes must be assessed quarterly and material items reported to the Board.",
+    "contexts": [
+      "Legal Risk Policy — Section 3.1: All significant commercial contracts, including those above defined materiality thresholds, must be reviewed and approved by the Legal department or external counsel before execution.",
+      "Legal Risk Policy — Section 3.3: The firm must conduct a quarterly review of all material legal risk exposures, including pending litigation, regulatory proceedings, and unresolved contract disputes. Material items must be reported to the Board of Directors."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing pension fund risk?",
+    "ground_truth": "The firm's defined benefit pension fund must be actuarially valued every three years and the results disclosed in the annual report. Funding deficits must be addressed through agreed recovery plans approved by trustees and the pensions regulator.",
+    "contexts": [
+      "Pension Risk Policy — Section 4.1: The firm's defined benefit pension obligations must be subject to a full actuarial valuation at least every three years, with the most recent results disclosed in the annual financial statements.",
+      "Pension Risk Policy — Section 4.3: Any funding deficit identified in the actuarial valuation must be addressed through a recovery plan agreed with the pension fund trustees and submitted to the relevant pensions regulator. Recovery plan payments must be reflected in the firm's capital plan."
+    ]
+  },
+  {
+    "question": "What are the requirements for the firm's pricing and product approval process?",
+    "ground_truth": "New products must complete a formal product approval process including review by Risk, Compliance, Legal, and Finance before launch. Post-launch reviews must be conducted after 6 months. Products causing consumer harm must be withdrawn immediately.",
+    "contexts": [
+      "Product Approval Policy — Section 2.1: All new products and materially modified existing products must complete the firm's Product Approval Process (PAP) prior to launch, involving review and sign-off by Risk, Compliance, Legal, Finance, and Operations.",
+      "Product Approval Policy — Section 2.4: A post-launch review must be conducted within 6 months of a new product's launch to assess actual performance against projections. Products identified as causing consumer harm must be withdrawn from sale immediately and reported to the Conduct Regulator."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing technology risk?",
+    "ground_truth": "Critical IT systems must have documented recovery procedures with RTOs of less than 4 hours. Patch management must ensure critical security patches are applied within 30 days of release. Penetration testing of external-facing systems must be conducted annually.",
+    "contexts": [
+      "Technology Risk Policy — Section 5.1: All critical IT systems must have documented disaster recovery procedures with defined Recovery Time Objectives (RTOs) not exceeding 4 hours. RTOs must be tested annually.",
+      "Technology Risk Policy — Section 5.3: Critical security patches must be applied to production systems within 30 days of release by the vendor. Annual penetration tests of all external-facing systems must be conducted by an independent qualified provider."
+    ]
+  },
+  {
+    "question": "What are the reporting requirements for capital instruments issued by the firm?",
+    "ground_truth": "Terms and conditions of all capital instruments must be disclosed in full in the annual report. Changes to capital instruments must be approved by the regulator before issuance. Redemptions of AT1 instruments require supervisory consent.",
+    "contexts": [
+      "Capital Instruments Policy — Section 7.1: The firm must disclose in its annual report the full terms and conditions of all regulatory capital instruments outstanding, including all features relevant to the determination of their eligibility as regulatory capital.",
+      "Capital Instruments Policy — Section 7.3: Any change to the terms of existing regulatory capital instruments must receive prior supervisory approval. The redemption or repurchase of Additional Tier 1 instruments requires prior consent from the prudential regulator."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing fiduciary risk in asset management activities?",
+    "ground_truth": "The firm must act in the best interests of clients at all times. Investment decisions must be documented with rationale. Soft commission arrangements must be disclosed to clients. Portfolio performance must be reported against agreed benchmarks quarterly.",
+    "contexts": [
+      "Fiduciary Duty Policy — Section 1.1: In providing asset management services, the firm must at all times act in the best interests of its clients. Investment decisions must be documented with clear rationale demonstrating alignment with client mandates.",
+      "Fiduciary Duty Policy — Section 1.3: Any soft commission or research payment arrangements must be disclosed to clients in advance. Portfolio performance must be reported to clients against agreed benchmarks on a quarterly basis, with attribution analysis for material deviations."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing fraud risk?",
+    "ground_truth": "The firm must maintain fraud detection controls including transaction monitoring systems. Suspected fraud must be reported to the Fraud Risk team within 24 hours of detection. Material fraud losses must be reported to the Board and relevant authorities.",
+    "contexts": [
+      "Fraud Risk Policy — Section 3.1: The firm must maintain a suite of preventive and detective fraud controls including transaction monitoring systems capable of identifying unusual patterns indicative of fraudulent activity.",
+      "Fraud Risk Policy — Section 3.3: Employees who detect or suspect fraud must report it to the Fraud Risk Management team within 24 hours. Material fraud losses exceeding defined thresholds must be reported to the Board of Directors and to relevant law enforcement and regulatory authorities."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing name lending risk?",
+    "ground_truth": "Name lending — extending credit based primarily on the borrower's reputation without adequate security or cash flow analysis — is prohibited. All credit decisions must be based on documented credit analysis including cash flow assessment, collateral valuation, and sensitivity analysis.",
+    "contexts": [
+      "Credit Underwriting Policy — Section 2.1: The firm prohibits name lending practices. Credit facilities must not be extended solely on the basis of a borrower's reputation, brand, or prior relationship without documented financial analysis.",
+      "Credit Underwriting Policy — Section 2.3: All credit decisions must be supported by a written credit analysis that includes assessment of the borrower's cash flows, debt service capacity, collateral value and enforceability, and sensitivity of repayment capacity to adverse scenarios."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks associated with crypto-asset exposures?",
+    "ground_truth": "Crypto-asset exposures are subject to a 1250% risk weight for regulatory capital purposes unless otherwise specified. Board approval is required before taking on any crypto-asset exposure. Concentration limits apply at 1% of Tier 1 capital.",
+    "contexts": [
+      "Crypto-Asset Risk Policy — Section 1.1: Exposures to crypto-assets as defined by the Basel Committee must be assigned a risk weight of 1250% for regulatory capital purposes, pending further supervisory guidance.",
+      "Crypto-Asset Risk Policy — Section 1.3: The firm must obtain prior approval from the Board of Directors before establishing any exposure to crypto-assets. Total crypto-asset exposures must not exceed 1% of Tier 1 capital."
+    ]
+  },
+  {
+    "question": "What are the requirements for financial crime risk assessment?",
+    "ground_truth": "The firm must conduct an enterprise-wide financial crime risk assessment annually, covering money laundering, terrorist financing, fraud, bribery, and sanctions risks. The assessment must be approved by the Board and used to calibrate AML controls.",
+    "contexts": [
+      "Financial Crime Risk Assessment Policy — Section 2.1: The firm must conduct and document an enterprise-wide financial crime risk assessment at least annually, covering the risks of money laundering, terrorist financing, fraud, bribery and corruption, and sanctions violations.",
+      "Financial Crime Risk Assessment Policy — Section 2.3: The risk assessment must be approved by the Board of Directors and must inform the calibration and resourcing of the firm's financial crime prevention controls. Significant changes in business model or risk profile require an interim re-assessment."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing pillar 3 disclosure?",
+    "ground_truth": "Pillar 3 disclosures must be published annually, aligned with the financial reporting date, and must cover capital adequacy, risk exposures, remuneration, and governance. They must be subject to Board approval and published on the firm's website.",
+    "contexts": [
+      "Pillar 3 Disclosure Policy — Section 1.1: The firm must publish Pillar 3 disclosures in accordance with the applicable prudential regulatory requirements on at least an annual basis, aligned with the financial year-end reporting date.",
+      "Pillar 3 Disclosure Policy — Section 1.3: Pillar 3 disclosures must cover capital adequacy and capital composition, risk exposures by category, remuneration policies and practices, and governance arrangements. Disclosures must be approved by the Board and published on the firm's public website."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing asset encumbrance?",
+    "ground_truth": "The firm must monitor asset encumbrance levels monthly. The encumbrance ratio must not exceed 30% of total assets without Board approval. An asset encumbrance report must be submitted to the regulator annually.",
+    "contexts": [
+      "Asset Encumbrance Policy — Section 4.1: The firm must monitor the level of asset encumbrance on a monthly basis, calculating the ratio of encumbered assets to total assets across all business lines.",
+      "Asset Encumbrance Policy — Section 4.3: The asset encumbrance ratio must not exceed 30% of total assets without specific approval from the Board of Directors. An asset encumbrance report must be submitted to the prudential regulator as part of the annual supervisory reporting package."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing operational resilience?",
+    "ground_truth": "The firm must identify important business services and set impact tolerances for each. Disruptions beyond impact tolerances must be reported to the regulator within 24 hours. Annual self-assessments of operational resilience must be submitted to the Board.",
+    "contexts": [
+      "Operational Resilience Policy — Section 1.1: The firm must identify its important business services and set impact tolerances defining the maximum disruption that could be tolerated before causing intolerable harm to customers or market integrity.",
+      "Operational Resilience Policy — Section 1.3: Any disruption to an important business service that exceeds its impact tolerance must be reported to the relevant regulator within 24 hours. The firm must submit an annual self-assessment of operational resilience to the Board of Directors."
+    ]
+  },
+  {
+    "question": "What are the requirements for the risk-based approach to AML in high-risk jurisdictions?",
+    "ground_truth": "Customers and transactions from high-risk jurisdictions designated by FATF require enhanced due diligence, including source of funds verification, senior manager approval, and enhanced ongoing monitoring. Such relationships must be reviewed annually.",
+    "contexts": [
+      "AML Risk-Based Approach Policy — Section 3.1: Customers resident in or transactions involving high-risk jurisdictions identified on the FATF list of jurisdictions under increased monitoring must be subject to enhanced due diligence.",
+      "AML Risk-Based Approach Policy — Section 3.3: Enhanced due diligence for high-risk jurisdiction relationships must include verification of source of funds and wealth, approval by a Senior Manager prior to onboarding, and enhanced ongoing transaction monitoring. These relationships must be reviewed at least annually."
+    ]
+  },
+  {
+    "question": "What is the policy for managing sovereign bond exposures?",
+    "ground_truth": "Sovereign bond exposures to non-investment grade sovereigns require Credit Committee approval. Holdings must be marked to market daily. Concentration limits restrict holdings to a single sovereign at no more than 10% of the investment portfolio.",
+    "contexts": [
+      "Investment Portfolio Policy — Section 6.1: Investment in sovereign bonds of non-investment grade issuers requires prior approval from the Credit Committee, with documented rationale.",
+      "Investment Portfolio Policy — Section 6.3: All sovereign bond holdings must be marked to market daily. No single sovereign issuer may represent more than 10% of the total investment portfolio at cost. Breaches must be reported to the Investment Committee within one business day."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risks of algorithmic trading systems?",
+    "ground_truth": "Algorithmic trading systems must undergo pre-deployment testing including simulation and market stress testing. Kill switches must be operational at all times. Systems must be subject to annual reviews and changes require separate approval by risk management.",
+    "contexts": [
+      "Algorithmic Trading Policy — Section 5.1: All algorithmic trading systems must be subject to comprehensive pre-deployment testing, including simulation against historical data and stress scenarios, prior to use in live markets.",
+      "Algorithmic Trading Policy — Section 5.3: Each algorithmic system must have an operational kill switch capable of halting trading immediately. Systems must undergo an annual risk review. Material changes to algorithms must be separately approved by risk management before deployment."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing concentration risk in the investment portfolio?",
+    "ground_truth": "No single issuer may represent more than 5% of the investment portfolio. Single-sector concentrations must not exceed 25%. Limit breaches must be reported to the Investment Committee within one business day and remediated within 10 business days.",
+    "contexts": [
+      "Investment Concentration Policy — Section 3.1: Holdings in securities issued by any single issuer must not exceed 5% of the total investment portfolio measured at market value.",
+      "Investment Concentration Policy — Section 3.3: Exposure to any single industry sector must not exceed 25% of the total investment portfolio. Concentration limit breaches must be reported to the Investment Committee within one business day and the breach must be remediated within 10 business days."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of money market fund investments?",
+    "ground_truth": "Investments in money market funds are restricted to VNAV and LVNAV funds rated AAAmmf by at least one NRSRO. No more than 10% of the liquidity portfolio may be held in money market funds from any single fund manager.",
+    "contexts": [
+      "Money Market Fund Investment Policy — Section 2.1: The firm may only invest in money market funds classified as Variable Net Asset Value (VNAV) or Low Volatility Net Asset Value (LVNAV) funds that carry a money market fund rating of AAAmmf from at least one Nationally Recognised Statistical Rating Organisation (NRSRO).",
+      "Money Market Fund Investment Policy — Section 2.3: Investments in money market funds from any single fund manager must not exceed 10% of the total liquidity portfolio. Funds must be reviewed for continued eligibility on a quarterly basis."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risk in payment and settlement systems?",
+    "ground_truth": "The firm must assess settlement and payment risk daily. Daylight overdraft limits for correspondent accounts must be approved by the Credit Committee. Nostro reconciliations must be completed daily and breaks exceeding $50,000 reported to operations management.",
+    "contexts": [
+      "Payment Risk Policy — Section 4.1: The firm must monitor settlement and payment risk exposures on a daily basis, including daylight overdraft utilisation in correspondent accounts.",
+      "Payment Risk Policy — Section 4.3: Daylight overdraft limits for correspondent bank accounts must be approved by the Credit Committee. Nostro account reconciliations must be completed each business day. Unreconciled items exceeding $50,000 must be reported to operations management within 24 hours."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in securities lending activities?",
+    "ground_truth": "Securities lending transactions must be fully collateralised at a minimum of 102% of the market value of lent securities. Collateral must be marked to market daily. Counterparties must be approved by Credit Committee and transactions must be subject to master securities lending agreements.",
+    "contexts": [
+      "Securities Lending Policy — Section 3.1: All securities lending transactions must be collateralised at a minimum of 102% of the market value of the lent securities, marked to market daily.",
+      "Securities Lending Policy — Section 3.3: Counterparties to securities lending transactions must be pre-approved by the Credit Committee. All transactions must be governed by a Master Securities Lending Agreement (MSLA). Collateral eligibility must comply with the approved collateral schedule."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing tax risk?",
+    "ground_truth": "The firm must maintain a Board-approved tax risk policy and a tax control framework. Material tax risks must be reported to the Board Audit Committee annually. The firm must not enter into artificial tax avoidance arrangements.",
+    "contexts": [
+      "Tax Risk Policy — Section 2.1: The firm must maintain a tax risk policy approved by the Board of Directors, setting out its approach to tax risk management, compliance, and governance.",
+      "Tax Risk Policy — Section 2.3: Material tax risks, uncertain tax positions, and significant changes in tax legislation must be reported to the Board Audit Committee at least annually. The firm will not participate in artificial tax avoidance arrangements that are inconsistent with the spirit of applicable tax law."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing insurance risk?",
+    "ground_truth": "The firm must maintain adequate insurance coverage for operational risks including professional indemnity, directors and officers liability, and cyber liability. Insurance coverage must be reviewed annually against risk exposures and approved by the CFO.",
+    "contexts": [
+      "Insurance Risk Policy — Section 3.1: The firm must maintain appropriate insurance coverage for key operational risks, including professional indemnity, directors' and officers' liability, crime, and cyber liability insurance.",
+      "Insurance Risk Policy — Section 3.3: Insurance coverage must be reviewed annually to ensure adequacy relative to current risk exposures and claims experience. The Chief Financial Officer must approve all material insurance placements and renewals."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing environmental and social risk in lending?",
+    "ground_truth": "The firm must screen corporate lending transactions above $10 million for environmental and social risks. Transactions in excluded sectors must not be financed. High-risk transactions require an E&S impact assessment by a qualified specialist.",
+    "contexts": [
+      "Environmental and Social Risk Policy — Section 2.1: All corporate lending transactions with a facility size exceeding $10 million must be screened for environmental and social risks using the firm's E&S risk screening tool.",
+      "Environmental and Social Risk Policy — Section 2.3: The firm maintains an exclusion list of sectors and activities it will not finance. Transactions identified as carrying high E&S risk must be supported by an independent E&S impact assessment conducted by a qualified specialist before credit approval."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risks of financial innovation and fintech partnerships?",
+    "ground_truth": "Fintech partnerships must complete the standard third-party risk assessment plus an innovation risk assessment covering regulatory compliance, data privacy, and operational resilience. Board or senior management approval is required for material fintech partnerships.",
+    "contexts": [
+      "Fintech Partnership Policy — Section 1.1: Proposed partnerships with fintech companies must complete the firm's standard third-party risk assessment and an additional innovation risk assessment covering regulatory compliance readiness, data privacy practices, and operational resilience.",
+      "Fintech Partnership Policy — Section 1.3: Material fintech partnerships — those involving core banking functions, customer data access, or regulatory reporting — require approval from the Board or a designated senior management committee prior to execution."
+    ]
+  },
+  {
+    "question": "What are the disclosure requirements under the Market Abuse Regulation?",
+    "ground_truth": "Issuers must disclose inside information as soon as possible via a Regulatory Information Service unless delayed disclosure is justified. Directors must disclose their transactions in the issuer's financial instruments within 3 business days.",
+    "contexts": [
+      "Market Abuse Compliance Policy — Section 4.1: The firm, in its capacity as issuer, must disclose inside information to the public as soon as possible via an approved Regulatory Information Service. Delayed disclosure is only permissible in limited circumstances and must be documented.",
+      "Market Abuse Compliance Policy — Section 4.3: Directors and persons discharging managerial responsibilities (PDMRs) must notify the firm and the regulator of transactions in the issuer's financial instruments within 3 business days of the transaction date."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risks associated with central clearing?",
+    "ground_truth": "The firm must assess CCP risk including default fund contributions and variation margin procyclicality. CCP relationships must be approved by the Risk Committee. Portability arrangements must be documented for clearing member default scenarios.",
+    "contexts": [
+      "Central Clearing Risk Policy — Section 3.1: Before establishing a clearing relationship with a central counterparty, the firm must conduct a risk assessment covering the CCP's financial resources, margin methodology, default management procedures, and default fund contribution obligations.",
+      "Central Clearing Risk Policy — Section 3.3: CCP relationships must be approved by the Risk Committee. The firm must document portability arrangements to ensure client positions can be transferred in the event of a clearing member default, and must test these arrangements annually."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing conduct risk in algorithmic sales processes?",
+    "ground_truth": "Algorithmic tools used in customer-facing sales must be validated for bias before deployment and reviewed annually. Outcomes must be monitored for signs of consumer harm and the Compliance team must receive monthly reports on algorithmic sales performance.",
+    "contexts": [
+      "Algorithmic Sales Conduct Policy — Section 2.1: Any algorithmic or AI-driven tool used in customer-facing sales or advisory processes must undergo a pre-deployment validation assessment to identify potential biases or unfair outcomes.",
+      "Algorithmic Sales Conduct Policy — Section 2.3: Post-deployment, outcomes generated by algorithmic sales tools must be monitored on an ongoing basis for indicators of consumer harm or discriminatory outcomes. Compliance must receive monthly performance reports and may require corrective action."
+    ]
+  },
+  {
+    "question": "What are the requirements for resolution planning?",
+    "ground_truth": "The firm must maintain an updated resolution plan covering its preferred resolution strategy, critical functions, financial resources required for resolution, and legal entity separability. The plan must be reviewed annually and submitted to the resolution authority.",
+    "contexts": [
+      "Resolution Planning Policy — Section 1.1: The firm must maintain a resolution plan setting out the preferred resolution strategy, identifying critical functions and systemically important services, and demonstrating the availability of financial resources to execute resolution.",
+      "Resolution Planning Policy — Section 1.3: The resolution plan must be reviewed and updated at least annually and submitted to the resolution authority as required. The plan must demonstrate legal entity separability and the operational capacity to execute the preferred resolution strategy."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in trade finance activities?",
+    "ground_truth": "Trade finance facilities must be supported by underlying commercial transactions and documentary evidence. Documentary credit must be processed according to UCP 600. Country risk and sanctions screening must be completed for all trade finance transactions.",
+    "contexts": [
+      "Trade Finance Policy — Section 5.1: All trade finance facilities must be supported by evidence of an underlying commercial transaction. Documentary letters of credit must be processed in accordance with ICC Uniform Customs and Practice for Documentary Credits (UCP 600).",
+      "Trade Finance Policy — Section 5.3: Country risk assessment and sanctions screening must be completed for all parties to a trade finance transaction, including the applicant, beneficiary, and the underlying trade counterparties, before processing."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in private equity investments?",
+    "ground_truth": "Private equity investments require Investment Committee approval with documented due diligence. Investments must be marked to fair value quarterly using approved methodologies. The portfolio must not exceed 10% of the firm's Tier 1 capital in aggregate.",
+    "contexts": [
+      "Private Equity Investment Policy — Section 3.1: All private equity investments must be approved by the Investment Committee and supported by documented due diligence covering the target company's financials, management, market position, and exit strategy.",
+      "Private Equity Investment Policy — Section 3.3: Private equity investments must be measured at fair value quarterly using methodologies consistent with IPEV Valuation Guidelines. The aggregate private equity portfolio must not exceed 10% of the firm's Tier 1 capital."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in real estate lending?",
+    "ground_truth": "Commercial real estate loans require independent appraisals at origination and every three years. Debt service coverage ratios must be at least 1.25x. Loans exceeding $5 million require Credit Committee approval.",
+    "contexts": [
+      "Commercial Real Estate Lending Policy — Section 4.1: All commercial real estate loans must be supported by an independent appraisal at origination, conducted by a qualified appraiser approved by the firm. Subsequent appraisals are required every three years or upon material change in conditions.",
+      "Commercial Real Estate Lending Policy — Section 4.3: Commercial real estate loans must demonstrate a minimum debt service coverage ratio of 1.25x based on stabilised net operating income. Loans with a principal balance exceeding $5 million require approval from the Credit Committee."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in wealth management services?",
+    "ground_truth": "Wealth management clients must receive an annual portfolio review including performance attribution, risk assessment, and rebalancing recommendations. Investment mandates must be documented and signed by clients. Changes to mandates require written client consent.",
+    "contexts": [
+      "Wealth Management Policy — Section 6.1: Each wealth management client must receive a formal annual portfolio review that includes performance attribution analysis, assessment of portfolio risk relative to the client's risk profile, and rebalancing recommendations.",
+      "Wealth Management Policy — Section 6.3: Investment mandates governing the management of client assets must be documented in writing and signed by the client. Any proposed change to an investment mandate requires written consent from the client prior to implementation."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing regulatory capital buffers?",
+    "ground_truth": "In addition to minimum capital ratios, firms must maintain a Capital Conservation Buffer of 2.5% CET1, a Countercyclical Capital Buffer as set by national authorities, and, if applicable, a G-SII or O-SII buffer. Distributions are restricted when buffers are breached.",
+    "contexts": [
+      "Capital Buffer Policy — Section 2.1: In addition to minimum regulatory capital requirements, the firm must maintain a Capital Conservation Buffer of 2.5% CET1, a Countercyclical Capital Buffer at the rate set by the designated national authority, and, where applicable, a systemic risk buffer.",
+      "Capital Buffer Policy — Section 2.3: When the combined buffer requirement is not met in full, the firm must calculate a Maximum Distributable Amount and restrict dividends, share buybacks, and discretionary variable remuneration accordingly, until buffers are restored."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in digital banking channels?",
+    "ground_truth": "Digital banking channels must implement multi-factor authentication for all customer access. Session timeouts must not exceed 10 minutes of inactivity. Security controls must be reviewed annually and penetration tested semi-annually.",
+    "contexts": [
+      "Digital Banking Security Policy — Section 3.1: All customer-facing digital banking channels must implement multi-factor authentication for login and for high-value transaction authorization.",
+      "Digital Banking Security Policy — Section 3.3: User sessions on digital banking platforms must automatically timeout after no more than 10 minutes of inactivity. Security controls must be reviewed at least annually and external penetration testing of digital channels must be conducted at least semi-annually."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in structured deposits?",
+    "ground_truth": "Structured deposits must be assessed for suitability for each retail customer before sale. The maximum return and conditions triggering capital risk must be disclosed prominently in pre-sale documentation. Sales must be reported to the product committee quarterly.",
+    "contexts": [
+      "Structured Deposit Policy — Section 4.1: Before selling a structured deposit to a retail customer, the firm must conduct a suitability assessment to ensure the product is appropriate for the customer's financial situation, investment objectives, and risk tolerance.",
+      "Structured Deposit Policy — Section 4.3: Pre-contractual documentation must clearly and prominently disclose the maximum potential return, the conditions under which capital may be at risk, and the early redemption terms. Quarterly sales reports must be provided to the Product Committee."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing benchmark rate transition risk?",
+    "ground_truth": "The firm must have identified all contracts referencing discontinued benchmarks and completed transition to Risk-Free Rates by regulatory deadlines. Fallback language must be incorporated into new contracts from the effective date. A benchmark transition committee must oversee the programme.",
+    "contexts": [
+      "Benchmark Transition Policy — Section 1.1: The firm must identify all financial contracts and instruments referencing LIBOR and other discontinued benchmarks and complete transition to approved Risk-Free Rates by the regulatory-mandated deadlines.",
+      "Benchmark Transition Policy — Section 1.3: All new contracts entered after the specified effective date must incorporate robust fallback language referencing the appropriate Risk-Free Rate. A Benchmark Transition Steering Committee must oversee programme delivery and report progress to senior management quarterly."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing portfolio credit risk through credit derivatives?",
+    "ground_truth": "Credit derivatives used for portfolio hedging must be documented as hedges and assessed for hedge effectiveness at least quarterly. Hedging counterparties must be investment grade. The notional of credit protection purchased must not exceed the underlying exposure.",
+    "contexts": [
+      "Credit Derivative Hedging Policy — Section 5.1: Credit derivatives used to hedge credit risk exposures in the banking book must be documented as hedges at inception and assessed for hedge effectiveness on at least a quarterly basis.",
+      "Credit Derivative Hedging Policy — Section 5.3: Counterparties providing credit protection must maintain a minimum investment grade credit rating. The notional amount of credit protection purchased for a specific reference entity must not exceed the nominal amount of the underlying credit exposure."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks related to data quality in regulatory reporting?",
+    "ground_truth": "The firm must maintain a data quality framework for regulatory reporting with defined data owners, quality controls, and reconciliation procedures. Material data errors in submitted returns must be corrected and resubmitted within 5 business days of identification.",
+    "contexts": [
+      "Regulatory Reporting Data Quality Policy — Section 3.1: The firm must operate a data quality framework covering all data used in regulatory reporting, with defined data owners responsible for accuracy, completeness, and timeliness of data.",
+      "Regulatory Reporting Data Quality Policy — Section 3.3: Where a material error is identified in a regulatory return that has already been submitted, the firm must correct and resubmit the return to the relevant authority within 5 business days of identifying the error, with an explanation of the error and its cause."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of financial exclusion?",
+    "ground_truth": "The firm must offer basic banking services to all eligible customers regardless of financial situation. Reasons for account refusal must be provided in writing. Accessibility requirements for customers with disabilities must be met across all channels.",
+    "contexts": [
+      "Financial Inclusion Policy — Section 2.1: The firm must offer access to basic banking services to all eligible customers, including those with low incomes or poor credit histories, in accordance with applicable financial inclusion requirements.",
+      "Financial Inclusion Policy — Section 2.3: Where a customer's application for a basic bank account is declined, the firm must provide the reasons in writing. The firm must ensure its products and channels are accessible to customers with physical, sensory, or cognitive disabilities."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in trade repository reporting?",
+    "ground_truth": "All reportable OTC derivatives must be reported to an approved trade repository by the end of the business day following trade date. The firm must reconcile trade repository records against internal records monthly. Reporting errors must be corrected within 5 business days.",
+    "contexts": [
+      "Trade Repository Reporting Policy — Section 4.1: All OTC derivative transactions subject to mandatory reporting must be reported to a registered or recognised trade repository by end of day T+1 from the trade date.",
+      "Trade Repository Reporting Policy — Section 4.3: The firm must reconcile records held at the trade repository against its internal books and records on a monthly basis. Any reporting errors identified must be corrected and resubmitted to the trade repository within 5 business days."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in securities underwriting?",
+    "ground_truth": "Underwriting commitments require Investment Banking Committee approval. Due diligence must be completed before signing underwriting agreements. Underwriting risk must be monitored daily during the bookbuilding period. Residual positions must be reported to the Risk Committee.",
+    "contexts": [
+      "Securities Underwriting Policy — Section 6.1: All securities underwriting commitments, including firm commitments and best efforts arrangements, require prior approval from the Investment Banking Committee based on documented due diligence on the issuer.",
+      "Securities Underwriting Policy — Section 6.3: Underwriting risk must be monitored on a daily basis during the bookbuilding and distribution period. Any residual underwriting position remaining after the distribution period must be reported to the Risk Committee with a plan for disposition."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in treasury operations?",
+    "ground_truth": "Treasury operations must have segregation of duties between front office dealing and back office settlement. All treasury transactions must be recorded in the treasury management system on the trade date. Daily cash positions must be reconciled by close of business.",
+    "contexts": [
+      "Treasury Operations Policy — Section 5.1: Segregation of duties must be maintained between treasury front office personnel who execute transactions and back office personnel who process and settle them. No individual may perform both functions.",
+      "Treasury Operations Policy — Section 5.3: All treasury transactions must be recorded in the firm's treasury management system on the day of execution. Daily cash and investment positions must be reconciled between the treasury management system and the general ledger by close of business each day."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in cross-border mergers and acquisitions?",
+    "ground_truth": "Cross-border M&A transactions require Board approval and legal, financial, and regulatory due diligence in all relevant jurisdictions. Regulatory approvals must be obtained before completion. Integration risk plans must be prepared and reviewed by the Risk Committee.",
+    "contexts": [
+      "M&A Risk Policy — Section 2.1: Cross-border mergers and acquisitions require approval from the Board of Directors and must be subject to comprehensive legal, financial, tax, and regulatory due diligence in each relevant jurisdiction.",
+      "M&A Risk Policy — Section 2.3: All required regulatory approvals must be obtained prior to transaction completion. An integration risk plan must be prepared by management and reviewed by the Risk Committee before integration activities commence."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of over-reliance on credit ratings?",
+    "ground_truth": "Credit ratings from external agencies may be used as one input to credit assessment but may not be the sole basis for credit decisions. Internal credit assessments must be maintained for all material exposures. A ratings withdrawal must trigger an internal credit review.",
+    "contexts": [
+      "Credit Rating Use Policy — Section 3.1: External credit ratings from NRSROs may be used as one input in the credit assessment process. The firm must not rely solely on external ratings for credit decisions without independent internal analysis.",
+      "Credit Rating Use Policy — Section 3.3: The firm must maintain internal credit assessments for all material credit exposures. In the event that an external credit rating is withdrawn or placed on review for downgrade, the firm must conduct an immediate internal credit review of the affected exposure."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in foreign correspondent banking?",
+    "ground_truth": "Foreign correspondent banking relationships require annual renewal of due diligence including assessment of AML controls, regulatory compliance, and financial condition. High-risk correspondent relationships require senior management approval and enhanced monitoring.",
+    "contexts": [
+      "Foreign Correspondent Banking Policy — Section 3.1: All foreign correspondent banking relationships must be subject to annual renewal of due diligence, covering the respondent institution's AML controls, regulatory standing, ownership, and financial condition.",
+      "Foreign Correspondent Banking Policy — Section 3.3: Relationships with correspondent institutions in high-risk jurisdictions or with elevated risk profiles require approval from senior management at the annual renewal. These relationships are subject to enhanced ongoing transaction monitoring."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing competition and antitrust risk?",
+    "ground_truth": "Employees must not exchange pricing information, market allocation terms, or commercially sensitive data with competitors. Participation in trade associations requires Legal department approval. Compliance training on antitrust law must be completed annually by relevant staff.",
+    "contexts": [
+      "Antitrust Compliance Policy — Section 2.1: Employees are prohibited from communicating with competitors regarding pricing, market allocation, customer lists, or other competitively sensitive information, whether directly or through intermediaries.",
+      "Antitrust Compliance Policy — Section 2.3: Participation in trade association meetings where commercially sensitive topics may be discussed requires prior approval from the Legal department. All relevant staff must complete mandatory antitrust compliance training on an annual basis."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in consumer credit underwriting?",
+    "ground_truth": "Consumer credit decisions must be based on affordability assessment using verified income and expenditure data. The debt-to-income ratio must not exceed 43% for standard products. Creditworthiness assessments must be documented and retained for 6 years.",
+    "contexts": [
+      "Consumer Credit Underwriting Policy — Section 3.1: All consumer credit decisions must be supported by an affordability assessment based on verified income and committed expenditure data. Unverified income may not be used as the primary basis for credit approval.",
+      "Consumer Credit Underwriting Policy — Section 3.3: Standard consumer credit products must not be offered where the resulting total debt-to-income ratio exceeds 43%. All creditworthiness assessments must be fully documented and retained for a minimum of six years from the date of the credit decision."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing data retention and destruction?",
+    "ground_truth": "Data must be retained in accordance with the data retention schedule, typically 7 years for financial records and 3 years for marketing records. Upon expiry of the retention period, data must be securely destroyed using approved methods. Destruction must be documented.",
+    "contexts": [
+      "Data Retention Policy — Section 2.1: Personal and business data must be retained for the periods specified in the firm's data retention schedule. Financial records and records required for regulatory purposes must generally be retained for 7 years; marketing data for 3 years unless consent is renewed.",
+      "Data Retention Policy — Section 2.3: Upon expiry of the applicable retention period, data must be securely destroyed using approved data destruction methods. All data destruction must be documented, including the date, method of destruction, and a description of the data destroyed."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of greenwashing in ESG products?",
+    "ground_truth": "ESG-labelled products must have documented investment criteria aligned with the stated ESG classification. Claims made in marketing materials must be substantiated and reviewed by Compliance. Annual ESG performance reports must be published for each ESG product.",
+    "contexts": [
+      "ESG Product Integrity Policy — Section 1.1: Products marketed with ESG, sustainable, or green labels must have clearly documented investment criteria and exclusions that are consistent with the stated ESG classification and applicable regulatory definitions.",
+      "ESG Product Integrity Policy — Section 1.3: All ESG claims made in marketing materials must be reviewed and approved by the Compliance department to ensure they are accurate, fair, and substantiated. An annual ESG performance report must be published for each ESG-labelled product, disclosing key sustainability metrics."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing cross-selling risks?",
+    "ground_truth": "Cross-selling must be based on genuine customer need identified through suitability or needs assessment. Sales incentives must not create undue pressure to cross-sell. Cross-selling outcomes must be reviewed by Compliance quarterly for evidence of mis-selling.",
+    "contexts": [
+      "Cross-Selling Policy — Section 3.1: Cross-selling of additional products to existing customers must be based on a genuine assessment of customer need. Sales processes must not use high-pressure tactics or bundling that prevents customers from purchasing products separately.",
+      "Cross-Selling Policy — Section 3.3: Sales incentive structures must be designed to avoid creating perverse incentives to cross-sell unsuitable products. Compliance must conduct quarterly reviews of cross-selling outcomes to identify patterns indicative of mis-selling."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing open banking and API risks?",
+    "ground_truth": "Third-party providers accessing customer data via open banking APIs must be registered with the relevant regulator and subject to technical security standards. API access must be revocable by customers at any time. API security must be tested at least annually.",
+    "contexts": [
+      "Open Banking Risk Policy — Section 2.1: Third-party providers seeking access to customer account data or payment initiation via the firm's open banking APIs must be registered with the relevant financial regulator and must meet the firm's technical security requirements.",
+      "Open Banking Risk Policy — Section 2.3: Customers must be able to revoke third-party access to their data at any time through the firm's digital banking interface. The security of open banking APIs must be assessed through independent penetration testing at least annually."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of key person dependency?",
+    "ground_truth": "The firm must identify key persons whose loss would materially impact operations. Succession plans must be maintained for all key positions and reviewed annually. Knowledge transfer programmes must be in place to reduce single-person dependency.",
+    "contexts": [
+      "Key Person Risk Policy — Section 2.1: The firm must identify all individuals whose skills, relationships, or knowledge are critical to the continued operation of material business functions, and assess the impact of their unexpected departure.",
+      "Key Person Risk Policy — Section 2.3: Succession plans must be maintained for each identified key position and reviewed annually. Knowledge transfer and cross-training programmes must be implemented to reduce dependency on any single individual."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing country transfer and convertibility risk?",
+    "ground_truth": "Transfer and convertibility risk must be assessed separately from sovereign credit risk for each country. Currency control events must trigger a review of all affected exposures within 5 business days. Affected positions must be reported to the Credit Committee.",
+    "contexts": [
+      "Country Transfer Risk Policy — Section 3.1: Transfer and convertibility risk — the risk that a borrower is unable to convert local currency to repay foreign currency obligations due to government restrictions — must be assessed separately from sovereign credit risk for each country of exposure.",
+      "Country Transfer Risk Policy — Section 3.3: The imposition of currency controls or transfer restrictions in any country must trigger a review of all the firm's exposures to that country within 5 business days. All affected positions must be reported to the Credit Committee with a proposed management action plan."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of customer vulnerability?",
+    "ground_truth": "The firm must have processes to identify vulnerable customers including those with mental health conditions, bereavement, or financial distress. Vulnerable customers must be offered appropriate support including payment deferrals. Staff must receive annual vulnerability training.",
+    "contexts": [
+      "Customer Vulnerability Policy — Section 2.1: The firm must operate processes to identify customers who may be in vulnerable circumstances, including those experiencing mental health difficulties, bereavement, domestic abuse, or acute financial distress.",
+      "Customer Vulnerability Policy — Section 2.3: Identified vulnerable customers must be offered appropriate adjustments, which may include payment deferrals, waiver of charges, referral to specialist support services, and adapted communication methods. All customer-facing staff must complete annual training on recognising and supporting vulnerable customers."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in leveraged lending?",
+    "ground_truth": "Leveraged loans are defined as loans to borrowers with a total debt-to-EBITDA ratio exceeding 4x. These require senior credit officer approval. Aggregate leveraged lending exposures must not exceed 15% of the total corporate loan portfolio.",
+    "contexts": [
+      "Leveraged Lending Policy — Section 4.1: Leveraged loans are defined as credit facilities extended to borrowers whose total debt-to-EBITDA ratio, including the proposed facility, exceeds 4.0x at origination.",
+      "Leveraged Lending Policy — Section 4.3: Leveraged lending transactions require approval from a senior credit officer. The aggregate leveraged loan portfolio must not exceed 15% of total corporate loan outstandings. Concentration by industry sector must also be monitored against defined limits."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in project finance transactions?",
+    "ground_truth": "Project finance transactions require independent technical and environmental due diligence in addition to standard credit analysis. Cash flow projections must be stress tested under downside scenarios. Financial covenants must include DSCR maintenance tests with cure periods.",
+    "contexts": [
+      "Project Finance Policy — Section 5.1: All project finance transactions must be supported by independent technical due diligence and an independent environmental and social impact assessment in addition to the standard financial credit analysis.",
+      "Project Finance Policy — Section 5.3: Cash flow projections for project finance transactions must be stress tested under at least two downside scenarios. Loan agreements must include financial maintenance covenants, including a minimum Debt Service Coverage Ratio (DSCR) test, with defined cure periods for covenant breaches."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of rogue trading?",
+    "ground_truth": "The firm must implement controls to prevent rogue trading including mandatory position reconciliation, trade surveillance, mandatory leave requirements, and rotation of key trading personnel. Any unexplained P&L variance must be investigated within 24 hours.",
+    "contexts": [
+      "Rogue Trading Prevention Policy — Section 3.1: The firm must implement a suite of controls to prevent and detect rogue trading, including daily reconciliation of trading positions, automated trade surveillance systems, mandatory annual leave of at least two consecutive weeks for trading staff, and periodic rotation of personnel in key trading roles.",
+      "Rogue Trading Prevention Policy — Section 3.3: Any unexplained profit or loss variance on a trading book that exceeds defined tolerance thresholds must be investigated by risk management within 24 hours. The results of the investigation must be reported to the Head of Trading and risk management."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing strategic risk?",
+    "ground_truth": "The firm must conduct an annual strategic risk assessment identifying risks to its business model and competitive position. Strategy changes above defined materiality thresholds require Board approval. Strategic risk must be integrated into the ICAAP.",
+    "contexts": [
+      "Strategic Risk Policy — Section 2.1: The firm must conduct a formal strategic risk assessment at least annually, identifying material risks to the viability of its business model, competitive position, and long-term profitability.",
+      "Strategic Risk Policy — Section 2.3: Material changes to the firm's strategy, including new business lines, market exits, or significant changes to the operating model above defined materiality thresholds, require approval from the Board of Directors. Strategic risk must be explicitly addressed in the ICAAP."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of market manipulation?",
+    "ground_truth": "The firm must maintain systems to detect and prevent market manipulation including wash trading, spoofing, and layering. Trading activity must be monitored by surveillance systems with alerts investigated within 5 business days. Employees must complete annual market abuse training.",
+    "contexts": [
+      "Market Manipulation Prevention Policy — Section 3.1: The firm must maintain electronic surveillance systems capable of detecting trading patterns indicative of market manipulation, including wash trading, spoofing, layering, and ramping.",
+      "Market Manipulation Prevention Policy — Section 3.3: Surveillance alerts must be reviewed and investigated within 5 business days of generation. Confirmed or suspected market manipulation must be reported to the Compliance department immediately. All trading staff must complete annual market abuse awareness training."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risks of hybrid financial instruments?",
+    "ground_truth": "Hybrid financial instruments must be classified as debt or equity based on their contractual terms in accordance with applicable accounting standards. Instruments with debt classification must not be counted as regulatory capital without regulatory approval.",
+    "contexts": [
+      "Hybrid Instrument Classification Policy — Section 4.1: Hybrid financial instruments must be classified as debt or equity based on the substance of the contractual terms, in accordance with IFRS 9 and IAS 32, regardless of legal form.",
+      "Hybrid Instrument Classification Policy — Section 4.3: Instruments classified as debt under accounting standards must not be included in regulatory capital without explicit prior approval from the prudential regulator confirming their eligibility as Additional Tier 1 or Tier 2 capital instruments."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risks of lending to connected parties?",
+    "ground_truth": "Lending to directors, significant shareholders, or their related parties must be on arm's-length terms, approved by the Board excluding the interested party, and reported annually in the financial statements. Aggregate connected party lending must not exceed 25% of Tier 1 capital.",
+    "contexts": [
+      "Connected Party Lending Policy — Section 2.1: Credit facilities extended to directors, significant shareholders (holding 10% or more), or their related parties must be on terms no more favourable than those available to similarly situated third-party borrowers.",
+      "Connected Party Lending Policy — Section 2.3: Connected party loans must be approved by the Board of Directors with the interested party recused from the vote. All connected party lending must be disclosed in the annual financial statements. Aggregate connected party exposures must not exceed 25% of Tier 1 capital."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of significant IT change projects?",
+    "ground_truth": "IT change projects with budgets exceeding $1 million or affecting core systems require a Change Steering Committee approval and a documented risk assessment. Post-implementation reviews must be conducted within 90 days of go-live.",
+    "contexts": [
+      "IT Change Management Policy — Section 4.1: IT change projects with a budget exceeding $1 million or affecting core banking, payment, or regulatory reporting systems must be approved by the Change Steering Committee, with a documented risk assessment and implementation plan.",
+      "IT Change Management Policy — Section 4.3: A post-implementation review must be conducted within 90 days of each major IT change going live, assessing whether the project delivered its intended benefits and identifying any residual risks or issues requiring remediation."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of interest rate derivatives used for hedging?",
+    "ground_truth": "Interest rate derivatives used for hedging must be designated and documented as hedges at inception, with the hedging relationship formally documented including the hedged item, hedging instrument, and the risk management objective.",
+    "contexts": [
+      "Interest Rate Hedge Policy — Section 3.1: Interest rate derivative positions designated as hedges must be formally documented at inception, including identification of the hedged item, the hedging instrument, the nature of the risk being hedged, and the risk management objective.",
+      "Interest Rate Hedge Policy — Section 3.3: Hedge effectiveness must be assessed both prospectively and retrospectively on at least a quarterly basis. Hedging relationships that no longer meet effectiveness criteria must be de-designated and the cumulative hedging gain or loss dealt with in accordance with applicable accounting standards."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of outsourced cloud computing services?",
+    "ground_truth": "Cloud service providers hosting material systems or data must be assessed against the firm's cloud security standards before engagement. Data residency requirements must be documented. Exit plans must ensure data portability and service continuity.",
+    "contexts": [
+      "Cloud Computing Risk Policy — Section 3.1: Cloud service providers engaged to host material applications or firm or customer data must be assessed against the firm's cloud security standards and the applicable regulatory requirements for cloud outsourcing before engagement.",
+      "Cloud Computing Risk Policy — Section 3.3: Contracts with cloud service providers must specify data residency and sovereignty requirements. The firm must maintain exit plans for each cloud service that ensure data portability, service continuity, and the ability to transition to an alternative provider within defined timeframes."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of securities financing transactions?",
+    "ground_truth": "Securities financing transactions including repos and securities lending must be reported to a trade repository under SFTR. The firm must conduct a minimum daily haircut floor assessment to ensure compliance with regulatory minimum haircuts.",
+    "contexts": [
+      "Securities Financing Transaction Policy — Section 4.1: All securities financing transactions within scope of the Securities Financing Transactions Regulation (SFTR) must be reported to a registered trade repository by end of day T+1.",
+      "Securities Financing Transaction Policy — Section 4.3: The firm must assess compliance with regulatory minimum haircut floors for securities financing transactions on a daily basis. Any transaction falling below the minimum haircut floor must be remediated on the same business day."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of climate-related stress testing?",
+    "ground_truth": "Institutions must conduct annual climate stress tests covering both transition and physical risk scenarios over a minimum 10-year horizon. Results must be incorporated into capital planning and reported to the Board and to the supervisory authority.",
+    "contexts": [
+      "Climate Stress Testing Policy — Section 2.1: Institutions must conduct climate-related stress tests at least annually, incorporating both transition risk scenarios (arising from the shift to a low-carbon economy) and physical risk scenarios (arising from extreme weather and long-term climate change), over a forward-looking horizon of at least 10 years.",
+      "Climate Stress Testing Policy — Section 2.3: The results of climate stress tests must be used to inform capital planning and risk appetite decisions. Results must be presented to the Board of Directors and submitted to the supervisory authority as part of the annual supervisory reporting cycle."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks associated with Payment Services Directive compliance?",
+    "ground_truth": "Payment service providers must implement Strong Customer Authentication for remote electronic payment transactions. Exemptions from SCA must be documented with applicable regulatory basis. Transaction monitoring for fraud must meet the required fraud rate thresholds.",
+    "contexts": [
+      "PSD2 Compliance Policy — Section 3.1: Payment service providers must apply Strong Customer Authentication (SCA) for remote electronic payment transactions, combining at least two of the following elements: knowledge, possession, and inherence.",
+      "PSD2 Compliance Policy — Section 3.3: Any exemption from SCA must be applied only on the basis of a documented regulatory exemption and subject to monitoring of associated fraud rates. Fraud rates must remain below the thresholds specified in the applicable regulatory technical standards to maintain exemption eligibility."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing conduct risk related to product design?",
+    "ground_truth": "Products must be designed with a defined target market specifying the customer type for whom the product is appropriate. Manufacturers must assess whether the product meets the needs of the target market at least annually and must act if the product causes customer harm.",
+    "contexts": [
+      "Product Design Conduct Policy — Section 1.1: All financial products must be designed with a defined target market statement specifying the category of customer for whom the product is intended, and the customers for whom it is not appropriate.",
+      "Product Design Conduct Policy — Section 1.3: Product manufacturers must review at least annually whether each product continues to meet the needs, characteristics, and objectives of its target market. Where a product is found to be causing harm, it must be modified or withdrawn from sale and reported to the relevant regulator."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risks of initial coin offerings or token issuances?",
+    "ground_truth": "The firm must not participate in initial coin offerings or token issuances without prior Legal and Compliance review confirming the regulatory treatment of the tokens. If tokens constitute transferable securities, all applicable prospectus and distribution regulations apply.",
+    "contexts": [
+      "Crypto-Asset Policy — Section 3.1: The firm must not participate as issuer, underwriter, or distributor in any initial coin offering or token issuance without a prior formal legal and regulatory analysis confirming the classification and applicable regulatory treatment of the tokens.",
+      "Crypto-Asset Policy — Section 3.3: Where tokens are determined to constitute transferable securities under applicable law, all prospectus requirements, distribution restrictions, and investor protection obligations applicable to securities offerings must be complied with in full."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of outsourced internal audit activities?",
+    "ground_truth": "Internal audit activities may be co-sourced with external providers but the Head of Internal Audit must remain an employee. Co-source providers must sign confidentiality agreements and their work must be reviewed and approved by the Head of Internal Audit.",
+    "contexts": [
+      "Internal Audit Outsourcing Policy — Section 2.1: Internal audit work may be co-sourced with qualified external providers to supplement internal capacity. However, the Head of Internal Audit must be an employee of the firm and retain responsibility for the overall internal audit function.",
+      "Internal Audit Outsourcing Policy — Section 2.3: External co-source providers must execute confidentiality and data protection agreements prior to commencing work. All work products produced by external providers must be reviewed, and where appropriate modified, and formally approved by the Head of Internal Audit before issue."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risks related to cross-border data transfers?",
+    "ground_truth": "Personal data may only be transferred to countries outside the EEA if they have an adequacy decision or appropriate safeguards such as standard contractual clauses are in place. A transfer impact assessment must be completed before relying on standard contractual clauses.",
+    "contexts": [
+      "Cross-Border Data Transfer Policy — Section 2.1: Personal data may only be transferred to jurisdictions outside the European Economic Area (EEA) where the destination country has received an adequacy decision from the European Commission or where appropriate safeguards, such as standard contractual clauses, are in place.",
+      "Cross-Border Data Transfer Policy — Section 2.3: Before relying on standard contractual clauses as the transfer mechanism, the firm must conduct a Transfer Impact Assessment evaluating the laws and practices of the destination country to determine whether the clauses can be effective in practice."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in collateralised loan obligations?",
+    "ground_truth": "Investments in CLO tranches require Credit Committee approval and documented analysis of the underlying loan pool quality, manager track record, and tranche attachment points. CLO positions must be stress tested quarterly and senior tranches only may be held in the investment portfolio.",
+    "contexts": [
+      "CLO Investment Policy — Section 4.1: Investment in any tranche of a Collateralised Loan Obligation requires prior Credit Committee approval and must be supported by documented analysis of the quality and diversification of the underlying loan pool, the CLO manager's track record, and the credit enhancement at each tranche level.",
+      "CLO Investment Policy — Section 4.3: CLO positions must be stress tested on a quarterly basis against adverse scenarios for default rates and recovery values. Only investment in senior-ranked CLO tranches is permitted within the investment portfolio; mezzanine and equity tranches are excluded."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of model drift in machine learning credit models?",
+    "ground_truth": "Machine learning credit models must be monitored monthly for population stability and model performance. Model drift breaching defined thresholds must trigger an automatic model review and recalibration. All ML models must be re-validated annually.",
+    "contexts": [
+      "Machine Learning Model Risk Policy — Section 5.1: Machine learning models used in credit underwriting must be subject to monthly monitoring covering population stability indices and key performance metrics such as Gini coefficient and KS statistic.",
+      "Machine Learning Model Risk Policy — Section 5.3: Where monitoring identifies model drift in excess of defined thresholds, an automatic model review must be triggered and recalibration completed within 60 days. All machine learning credit models must undergo full independent re-validation at least annually."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risks of employee share schemes?",
+    "ground_truth": "Employee share scheme awards to senior management must be approved by the Remuneration Committee. Vesting schedules must include performance conditions linked to firm financial metrics. Unvested awards are subject to malus provisions and vested awards to clawback for up to three years.",
+    "contexts": [
+      "Employee Share Scheme Policy — Section 3.1: Awards under employee share schemes to senior management and material risk takers must be approved by the Remuneration Committee based on documented performance assessments.",
+      "Employee Share Scheme Policy — Section 3.3: Vesting schedules for share awards must include performance conditions linked to the firm's financial performance metrics. Unvested awards are subject to malus provisions allowing reduction or cancellation. Vested awards are subject to clawback provisions operative for up to three years from the vesting date."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of pension mis-selling?",
+    "ground_truth": "Pension transfer advice must only be given by qualified pension transfer specialists. A transfer value analysis and a client best interest assessment must be completed and retained. Clients must be provided with a personal illustration and a cooling-off period of 30 days.",
+    "contexts": [
+      "Pension Transfer Advice Policy — Section 2.1: Advice to transfer out of a defined benefit pension scheme may only be given by a qualified Pension Transfer Specialist. A Transfer Value Analysis (TVAS) and a formal client best interest assessment must be completed and documented before advice is given.",
+      "Pension Transfer Advice Policy — Section 2.3: Clients must be provided with a personalised illustration showing the projected value of the proposed arrangement at retirement. A 30-day cooling-off period must be provided during which the client may withdraw from the transfer without penalty."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in central bank digital currency operations?",
+    "ground_truth": "Participation in CBDC programmes requires regulatory approval and Board authorisation. CBDC holdings must be treated as central bank money for liquidity purposes. Technical integration must meet the central bank's API and security specifications.",
+    "contexts": [
+      "CBDC Participation Policy — Section 1.1: The firm may only participate in central bank digital currency programmes with regulatory approval and upon authorisation by the Board of Directors.",
+      "CBDC Participation Policy — Section 1.3: For regulatory liquidity purposes, CBDC holdings shall be treated as central bank reserves and included in Level 1 HQLA. All technical integrations with the central bank's CBDC infrastructure must comply with the published API specifications and security requirements."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in mortgage-backed securities?",
+    "ground_truth": "MBS investments require pre-purchase due diligence on underlying loan pool quality, servicer strength, and structural features. Positions must be stress tested quarterly. Senior tranches only are eligible for the HQLA liquidity buffer.",
+    "contexts": [
+      "MBS Investment Policy â€” Section 3.1: Before acquiring mortgage-backed securities, the firm must conduct due diligence covering the credit quality and diversification of the underlying loan pool, the track record and financial strength of the servicer, and the structural credit enhancement.",
+      "MBS Investment Policy â€” Section 3.3: MBS positions must be stress tested quarterly under adverse prepayment and default scenarios. Only senior-ranked MBS tranches that meet applicable HQLA eligibility criteria may be counted toward the liquidity buffer."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of identity fraud?",
+    "ground_truth": "Identity verification must use at least two independent data sources for all new customers. Biometric verification is required for digital onboarding. Suspicious identity patterns must be escalated to the Fraud team within 24 hours.",
+    "contexts": [
+      "Identity Fraud Prevention Policy â€” Section 2.1: Customer identity must be verified against at least two independent data sources at onboarding, combining documentary and electronic verification methods.",
+      "Identity Fraud Prevention Policy â€” Section 2.3: Customers onboarding through digital channels must complete biometric identity verification. Patterns indicative of synthetic identity fraud must be escalated to the Fraud Risk Management team within 24 hours of detection."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in high-frequency trading?",
+    "ground_truth": "HFT systems must be registered with the relevant exchange and subject to pre-trade risk controls including maximum order size, maximum order rate, and kill switch functionality. Systems must be tested in a simulation environment before live deployment.",
+    "contexts": [
+      "High-Frequency Trading Policy â€” Section 4.1: All high-frequency trading systems must be registered with the relevant trading venue and must incorporate pre-trade risk controls including maximum order size limits, maximum order submission rate limits, and operational kill switches.",
+      "High-Frequency Trading Policy â€” Section 4.3: HFT systems must be tested in a dedicated simulation environment replicating live market conditions before being deployed in production markets. Simulation test results must be reviewed and approved by risk management."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing geopolitical risk?",
+    "ground_truth": "The firm must assess geopolitical risk in its top 20 country exposures annually. Material geopolitical events must trigger an ad-hoc exposure review within 5 business days. Geopolitical scenarios must be included in the annual stress-testing programme.",
+    "contexts": [
+      "Geopolitical Risk Policy â€” Section 2.1: The firm must include geopolitical risk in its annual country risk assessment for its top 20 country exposures, evaluating political stability, regulatory environment, and the risk of conflict or sanctions.",
+      "Geopolitical Risk Policy â€” Section 2.3: Material geopolitical events must trigger an ad-hoc review of all affected country exposures within 5 business days. Geopolitical stress scenarios must be included in the annual stress-testing programme."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing conduct risk in bonus and incentive structures?",
+    "ground_truth": "Incentive structures must not reward volume alone without quality metrics. Risk and compliance metrics must be included in all performance assessments for customer-facing staff. Incentive plans must be reviewed by the Remuneration Committee annually.",
+    "contexts": [
+      "Incentive Structure Conduct Policy â€” Section 3.1: Incentive schemes for customer-facing staff must not be based solely on sales volume metrics. Quality metrics including complaint rates and suitability outcomes must be incorporated.",
+      "Incentive Structure Conduct Policy â€” Section 3.3: All incentive plans for customer-facing roles must be reviewed by the Remuneration Committee annually to assess conduct risk implications. Plans creating incentives to mis-sell must be restructured."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of excessive leverage?",
+    "ground_truth": "The leverage ratio, calculated as Tier 1 capital divided by total exposure, must be at least 3%. G-SIIs must maintain a leverage ratio buffer of 50% of their G-SII buffer. The leverage ratio must be reported quarterly.",
+    "contexts": [
+      "Leverage Ratio Policy â€” Section 2.1: The firm must maintain a leverage ratio of at least 3%, calculated as Tier 1 capital divided by the total leverage ratio exposure measure.",
+      "Leverage Ratio Policy â€” Section 2.3: G-SII institutions must maintain an additional leverage ratio buffer equal to 50% of the applicable G-SII capital buffer. The leverage ratio must be reported to the supervisory authority quarterly."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in digital asset custody?",
+    "ground_truth": "Digital assets held for clients must be segregated from the firm's own assets. Cold storage must be used for assets not required for operational purposes. Custody arrangements must be audited annually by an independent auditor.",
+    "contexts": [
+      "Digital Asset Custody Policy â€” Section 3.1: Digital assets held on behalf of clients must be maintained in segregated wallets separate from the firm's own holdings at all times.",
+      "Digital Asset Custody Policy â€” Section 3.3: Digital assets not required for immediate operational purposes must be held in cold storage. Custody infrastructure must be subject to annual audit by an independent qualified auditor, with findings reported to the Board."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in supply chain finance programmes?",
+    "ground_truth": "Supply chain finance must reflect the economic substance of the underlying trade. Buyer credit quality must underpin the programme. Individual supplier exposures must be managed within Credit Committee approved limits.",
+    "contexts": [
+      "Supply Chain Finance Policy â€” Section 4.1: Supply chain finance programmes must reflect the commercial substance of the underlying trade payables. The creditworthiness of the buyer is the primary credit consideration for approved payables programmes.",
+      "Supply Chain Finance Policy â€” Section 4.3: Individual supplier exposure limits must be approved by the Credit Committee. Aggregate programme limits must be monitored against buyer credit quality and reviewed annually."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of cyber extortion and ransomware?",
+    "ground_truth": "Ransom payments require prior Board and legal counsel approval. Ransomware incidents must be reported to the NCSC and relevant regulator within 24 hours. Critical systems must have tested offline backups recoverable within the defined RTO.",
+    "contexts": [
+      "Ransomware Response Policy â€” Section 2.1: The firm must not make ransom payments without prior approval from the Board and legal counsel and assessment of applicable legal restrictions.",
+      "Ransomware Response Policy â€” Section 2.3: Ransomware incidents must be reported to the NCSC and the relevant financial regulator within 24 hours of detection. All critical systems must have tested offline backups with recovery capability within the defined RTO."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing reinsurance credit risk?",
+    "ground_truth": "Reinsurance counterparties must maintain a minimum credit rating of A-. Reinsurance receivables must be tracked and aged monthly. Collateral must be obtained from counterparties rated below A-.",
+    "contexts": [
+      "Reinsurance Credit Risk Policy â€” Section 4.1: Reinsurance counterparties must hold a minimum credit rating of A- from at least one NRSRO at placement and on an ongoing basis.",
+      "Reinsurance Credit Risk Policy â€” Section 4.3: Reinsurance recoverables must be tracked and aged monthly. Counterparties falling below the minimum rating must provide collateral within 30 days of the downgrade to secure outstanding recoverables."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in infrastructure finance?",
+    "ground_truth": "Infrastructure finance requires legal due diligence on concession agreements and regulatory frameworks. Cash flows must be stress tested over the asset life. Lenders must have step-in rights in the event of project default.",
+    "contexts": [
+      "Infrastructure Finance Policy â€” Section 5.1: Lending transactions must be supported by legal due diligence on the concession or PPP agreement, the regulatory and tariff framework, and the enforceability of security interests.",
+      "Infrastructure Finance Policy â€” Section 5.3: Financial models must be stress tested across the full asset life. Loan agreements must include lender step-in rights enabling the lender to assume operational control in the event of borrower default."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing concentration risk in the derivatives portfolio?",
+    "ground_truth": "Derivatives concentration must be monitored by reference entity, sector, and geography. Single reference entity CDS exposure must not exceed 5% of total CDS notional. Breaches must be reported to the Risk Committee.",
+    "contexts": [
+      "Derivatives Concentration Policy â€” Section 4.1: The firm must monitor derivatives portfolio concentration by reference entity, industry sector, and geography on a daily basis.",
+      "Derivatives Concentration Policy â€” Section 4.3: Exposure to any single reference entity in the CDS book must not exceed 5% of total CDS notional outstanding. Breaches must be reported to the Risk Committee within one business day."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in sharia-compliant finance?",
+    "ground_truth": "Sharia-compliant products must be reviewed and certified by an independent Sharia supervisory board before launch. Products must be reviewed annually for continued sharia compliance. Any fatwa regarding a product must be disclosed to clients.",
+    "contexts": [
+      "Islamic Finance Policy â€” Section 2.1: All sharia-compliant products must be reviewed and certified by an independent Sharia Supervisory Board before launch.",
+      "Islamic Finance Policy â€” Section 2.3: Product structures must be reviewed annually by the Sharia Supervisory Board. Any fatwa or ruling must be disclosed to customers and included in product documentation."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in green bond issuance?",
+    "ground_truth": "Green bonds must align with the ICMA Green Bond Principles. Proceeds must fund eligible green projects. An external reviewer must provide a second-party opinion before issuance and annual impact reporting is required.",
+    "contexts": [
+      "Green Bond Issuance Policy â€” Section 1.1: Green bonds must be aligned with the ICMA Green Bond Principles. Proceeds must be exclusively allocated to eligible green projects as defined in the green bond framework.",
+      "Green Bond Issuance Policy â€” Section 1.3: An external reviewer must provide a second-party opinion before issuance. Annual reporting on proceeds allocation and environmental impact must be published on the firm's website."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing data privacy risk under GDPR?",
+    "ground_truth": "The firm must maintain a record of processing activities for all personal data. DPIAs are required for high-risk processing. The Data Protection Officer must be notified of proposed new processing activities.",
+    "contexts": [
+      "GDPR Compliance Policy â€” Section 2.1: The firm must maintain a comprehensive Record of Processing Activities documenting all personal data processing including purpose, legal basis, data categories, retention period, and recipients.",
+      "GDPR Compliance Policy â€” Section 2.3: A DPIA must be conducted before any high-risk processing activity. The DPO must be consulted on all proposed new personal data processing activities."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in aircraft finance?",
+    "ground_truth": "Aircraft finance requires appraisal by two ISTAT-certified appraisers at origination. Cape Town Convention security interests must be registered. Maintenance reserves must be funded monthly based on aircraft age and type.",
+    "contexts": [
+      "Aircraft Finance Policy â€” Section 3.1: All aircraft finance transactions must be supported by appraisals from at least two ISTAT-certified appraisers at origination.",
+      "Aircraft Finance Policy â€” Section 3.3: Security interests must be registered under the Cape Town Convention. Maintenance reserve payments must be funded monthly calibrated to the age and type of aircraft."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in shipping finance?",
+    "ground_truth": "Shipping finance requires vessel valuation by an approved independent marine surveyor at origination. Loan-to-value covenants must be tested quarterly. Hull and machinery insurance must be maintained for the full loan term.",
+    "contexts": [
+      "Shipping Finance Policy â€” Section 4.1: All shipping finance transactions must be supported by a vessel valuation conducted by an approved independent marine surveyor at origination.",
+      "Shipping Finance Policy â€” Section 4.3: Loan agreements must include quarterly LTV covenant tests. Borrowers must maintain hull and machinery insurance with the firm noted as loss payee for the full loan duration."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks of OTC equity derivatives?",
+    "ground_truth": "OTC equity derivatives must be valued daily using observable inputs. Delta and vega limits must be set and monitored daily. CCR must be calculated using SA-CCR and included in the daily exposure report.",
+    "contexts": [
+      "OTC Equity Derivatives Policy â€” Section 4.1: All OTC equity derivative positions must be valued daily using observable market prices and implied volatility surfaces from approved data providers.",
+      "OTC Equity Derivatives Policy â€” Section 4.3: Delta and vega risk limits must be set and monitored daily. Counterparty credit risk must be calculated using SA-CCR and reported in the daily exposure report."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of non-financial misconduct?",
+    "ground_truth": "Allegations of non-financial misconduct must be investigated within 20 business days. Substantiated misconduct may result in dismissal and regulatory notification. A misconduct register must be maintained and reported to the Board annually.",
+    "contexts": [
+      "Non-Financial Misconduct Policy â€” Section 2.1: All allegations of non-financial misconduct must be investigated by HR and Compliance within 20 business days.",
+      "Non-Financial Misconduct Policy â€” Section 2.3: Substantiated misconduct may result in dismissal and regulatory notification. A register of investigations and outcomes must be maintained and reported to the Board annually."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in energy commodity trading?",
+    "ground_truth": "Energy commodity trading must comply with REMIT reporting obligations. Physical positions must be covered by approved supply contracts. Commodity VaR limits must be reviewed by the Risk Committee quarterly.",
+    "contexts": [
+      "Energy Commodity Trading Policy â€” Section 5.1: Trading in wholesale energy products must comply with REMIT reporting obligations, including registration with ACER and timely transaction reporting.",
+      "Energy Commodity Trading Policy â€” Section 5.3: Physical commodity positions must be supported by approved supply and delivery contracts. Commodity VaR limits must be reviewed by the Risk Committee quarterly."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in cross-asset trading strategies?",
+    "ground_truth": "Cross-asset strategies must have aggregate VaR limits approved by the CRO. Correlation assumptions must be validated annually. Scenario analysis must be run monthly across cross-asset books.",
+    "contexts": [
+      "Cross-Asset Trading Policy â€” Section 3.1: Trading strategies spanning multiple asset classes must be subject to aggregate VaR limits approved by the Chief Risk Officer.",
+      "Cross-Asset Trading Policy â€” Section 3.3: Correlation assumptions in cross-asset risk models must be independently validated annually. Monthly scenario analysis must be run across all cross-asset trading books."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in carbon credit trading?",
+    "ground_truth": "Carbon credits must be verified by an approved standard such as Verra or Gold Standard. Market risk limits must cover carbon price volatility. Delivery obligations must be tracked and reported to the commodities risk team daily.",
+    "contexts": [
+      "Carbon Credit Trading Policy â€” Section 2.1: The firm may only trade carbon credits verified under an approved international standard including VCS or Gold Standard.",
+      "Carbon Credit Trading Policy â€” Section 2.3: Market risk limits covering carbon price volatility must be approved by the Risk Committee. Carbon credit delivery obligations must be tracked and reported to the commodities risk team daily."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of loan book securitisation?",
+    "ground_truth": "Securitisation transactions require Board approval and a true sale legal opinion. The firm must retain a 5% net economic interest. Monthly investor reports on underlying portfolio performance must be published.",
+    "contexts": [
+      "Securitisation Policy â€” Section 4.1: Securitisation transactions must be approved by the Board and supported by a legal opinion confirming the transfer constitutes a true sale insolvency-remote from the originator.",
+      "Securitisation Policy â€” Section 4.3: The firm must retain a material net economic interest of at least 5%. Monthly investor reports disclosing portfolio performance must be published on the investor relations website."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in social bond issuance?",
+    "ground_truth": "Social bonds must align with the ICMA Social Bond Principles. Proceeds must finance eligible social projects. An annual impact report disclosing social outcomes must be published.",
+    "contexts": [
+      "Social Bond Policy â€” Section 1.1: Social bonds must be aligned with the ICMA Social Bond Principles and proceeds must be exclusively allocated to eligible social projects.",
+      "Social Bond Policy â€” Section 1.3: An annual impact report must be published disclosing proceeds allocation and social outcomes achieved using quantitative impact metrics where possible."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of market data vendor dependency?",
+    "ground_truth": "Critical market data must be sourced from at least two independent vendors. BCP must include provisions for market data outages. Vendor contracts must include accuracy warranties and outage notification obligations.",
+    "contexts": [
+      "Market Data Risk Policy â€” Section 3.1: For critical market data used in real-time risk management and valuation, the firm must source data from at least two independent vendors where technically feasible.",
+      "Market Data Risk Policy â€” Section 3.3: Business continuity plans must include documented procedures for market data outages. Vendor contracts must include data accuracy warranties and obligations to notify of outages within 30 minutes."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in distressed debt investing?",
+    "ground_truth": "Distressed debt investments require Credit Committee approval with legal and operational due diligence. Positions must be marked to market monthly. Concentration in any single issuer must not exceed 3% of the distressed portfolio.",
+    "contexts": [
+      "Distressed Debt Investment Policy â€” Section 4.1: Investments in distressed debt require Credit Committee approval and legal due diligence covering enforceability of claims and capital structure priority.",
+      "Distressed Debt Investment Policy â€” Section 4.3: Positions must be marked to market at least monthly using approved valuation methods. Concentration in any single issuer must not exceed 3% of the total distressed debt portfolio."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of excessive short selling?",
+    "ground_truth": "Net short positions exceeding 0.2% of an issuer's issued share capital must be reported to the regulator. Positions exceeding 0.5% must be publicly disclosed. Short positions must be covered by stock borrow before execution.",
+    "contexts": [
+      "Short Selling Policy â€” Section 3.1: Net short positions reaching or exceeding 0.2% of issued share capital must be notified to the relevant competent authority.",
+      "Short Selling Policy â€” Section 3.3: Net short positions reaching or exceeding 0.5% must be publicly disclosed. All short sales must be covered by a stock borrow arrangement confirming locatability before order execution."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in embedded finance partnerships?",
+    "ground_truth": "Embedded finance partners distributing the firm's regulated products must be subject to a distribution agreement, conduct risk assessment, and periodic sales quality monitoring. The firm retains full regulatory responsibility for customer outcomes.",
+    "contexts": [
+      "Embedded Finance Policy â€” Section 2.1: Third-party partners distributing the firm's regulated products through embedded finance must execute a formal distribution agreement setting out conduct standards and customer communication requirements.",
+      "Embedded Finance Policy â€” Section 2.3: Partners must be subject to a conduct risk assessment before onboarding and periodic sales quality monitoring. The firm retains full regulatory accountability for end customer outcomes."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in interest rate swap portfolios?",
+    "ground_truth": "Interest rate swap portfolios must be subject to DV01 limits approved by the Risk Committee. Hedge accounting documentation must be completed at inception. NPV must be reconciled to the back office system daily.",
+    "contexts": [
+      "Interest Rate Swap Portfolio Policy â€” Section 4.1: Interest rate swap positions must be managed within DV01 limits set and approved by the Risk Committee annually.",
+      "Interest Rate Swap Portfolio Policy â€” Section 4.3: Where swaps are designated as hedges, hedge accounting documentation must be prepared at inception. Net present value must be reconciled between front-office and back-office systems daily."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of non-compliance with consumer duty?",
+    "ground_truth": "The firm must deliver good outcomes for retail customers across products and services, price and value, consumer understanding, and consumer support. Annual board reports must assess consumer duty compliance.",
+    "contexts": [
+      "Consumer Duty Policy â€” Section 1.1: The firm must act to deliver good outcomes for retail customers across the four outcome areas: products and services, price and value, consumer understanding, and consumer support.",
+      "Consumer Duty Policy â€” Section 1.3: An annual Consumer Duty board report must assess whether the firm is delivering good outcomes in each area and set out planned remediation actions."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in fund distribution?",
+    "ground_truth": "Distributed funds must be subject to manager due diligence before placement and quarterly performance review. Funds showing style drift must be escalated to the Investment Committee.",
+    "contexts": [
+      "Fund Distribution Due Diligence Policy â€” Section 3.1: Before distributing a third-party fund, the firm must conduct due diligence on the fund manager covering investment philosophy, team stability, operational infrastructure, and compliance framework.",
+      "Fund Distribution Due Diligence Policy â€” Section 3.3: Distributed funds must be subject to quarterly review of performance and adherence to stated investment strategy. Funds exhibiting style drift must be escalated to the Investment Committee."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in repo market activities?",
+    "ground_truth": "Repo transactions must be executed under GMRA or equivalent master agreements. Haircuts must comply with regulatory minimum standards. End-of-day repo positions must be reconciled to the collateral management system.",
+    "contexts": [
+      "Repo Market Policy â€” Section 4.1: All repurchase agreement transactions must be executed under a GMRA or equivalent master agreement approved by the Legal department.",
+      "Repo Market Policy â€” Section 4.3: Haircuts must comply with applicable regulatory minimum haircut standards. End-of-day positions must be reconciled to the collateral management system daily, with breaks investigated within 24 hours."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of inadequate capital planning?",
+    "ground_truth": "Capital plans must cover a minimum 3-year forward horizon and be approved by the Board annually. Plans must include stress scenarios. Dividend proposals must be reviewed against capital plan projections before Board approval.",
+    "contexts": [
+      "Capital Planning Policy â€” Section 2.1: The firm must prepare a capital plan covering a minimum forward horizon of three years, updated and approved by the Board annually.",
+      "Capital Planning Policy â€” Section 2.3: The capital plan must demonstrate projected capital adequacy under stress scenarios. Proposed dividends or share buybacks must be assessed against capital plan projections before Board approval."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of financial crime in private banking?",
+    "ground_truth": "Private banking clients require EDD at onboarding including a face-to-face meeting. PEPs require senior management approval. Annual reviews of all private banking client files are mandatory.",
+    "contexts": [
+      "Private Banking Financial Crime Policy â€” Section 3.1: New private banking clients must undergo enhanced due diligence including a face-to-face meeting with the relationship manager and verification of source of wealth and funds.",
+      "Private Banking Financial Crime Policy â€” Section 3.3: PEPs and their associates must be approved by senior management before relationship establishment. Annual reviews of all client files must be conducted."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in equity capital markets transactions?",
+    "ground_truth": "IPOs and secondary offerings require Legal and Compliance due diligence sign-off before launch. Prospectuses must be reviewed by external counsel. Lock-up agreements must be in place for major shareholders for at least 180 days.",
+    "contexts": [
+      "Equity Capital Markets Policy â€” Section 5.1: Initial public offerings and secondary equity offerings require formal due diligence sign-off from Legal and Compliance before launch.",
+      "Equity Capital Markets Policy â€” Section 5.3: Prospectuses must be reviewed by external legal counsel in each relevant jurisdiction. Lock-up agreements must be in place for major shareholders and directors for a minimum of 180 days."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in crowdfunding activities?",
+    "ground_truth": "Crowdfunding platforms must disclose default rates and investor returns prominently. Investment limits based on risk profiles must apply. A Board-approved wind-down plan must be tested annually.",
+    "contexts": [
+      "Crowdfunding Risk Policy â€” Section 2.1: Investment-based crowdfunding platforms must prominently disclose historical default rates, average investor returns, and the risk of losing the entire investment.",
+      "Crowdfunding Risk Policy â€” Section 2.3: Investment limits based on investor risk profile must be applied. Platforms must maintain a Board-approved wind-down plan ensuring orderly management of investor funds, tested at least annually."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of payment fraud in wholesale banking?",
+    "ground_truth": "High-value payment instructions must require dual authorisation. Out-of-pattern payments above thresholds must be subject to callback verification. Payment systems must be monitored 24/7 with automated alerts for anomalous transactions.",
+    "contexts": [
+      "Wholesale Payment Fraud Policy â€” Section 3.1: Payment instructions above defined thresholds must require authorisation from two separate authorised individuals before processing.",
+      "Wholesale Payment Fraud Policy â€” Section 3.3: Out-of-pattern payment instructions exceeding defined thresholds must be subject to callback verification. Payment systems must be monitored continuously with automated alerts for anomalous patterns."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of concentration in funding sources?",
+    "ground_truth": "Funding from any single counterparty must not exceed 10% of total funding. Short-term wholesale funding must not exceed 30% of total liabilities. Funding concentration limits must be reported to ALCO monthly.",
+    "contexts": [
+      "Funding Concentration Policy â€” Section 4.1: Funding from any single counterparty or source must not exceed 10% of the firm's total funding base.",
+      "Funding Concentration Policy â€” Section 4.3: Short-term wholesale funding with a maturity of 30 days or less must not exceed 30% of total liabilities. Funding concentration metrics must be reported to ALCO monthly."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in prime brokerage services?",
+    "ground_truth": "Prime brokerage clients must sign a prime brokerage agreement before commencement of services. Client assets must be held in segregated accounts. Daily margin utilisation reports must be provided to each prime brokerage client.",
+    "contexts": [
+      "Prime Brokerage Policy â€” Section 5.1: The firm must execute a prime brokerage agreement with each client before providing services, specifying the terms of financing, margining, and asset custody.",
+      "Prime Brokerage Policy â€” Section 5.3: Client assets must be maintained in accounts segregated from the firm's own assets. Daily reports of margin utilisation, available credit, and position valuations must be provided to each prime brokerage client."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in real estate investment trust financing?",
+    "ground_truth": "REIT financing must be assessed on the quality and diversification of the underlying property portfolio. Loan covenants must include interest coverage and LTV maintenance tests. Annual property revaluations by independent appraisers are required.",
+    "contexts": [
+      "REIT Finance Policy â€” Section 3.1: Financing to REITs must be supported by credit analysis of the underlying property portfolio, including asset quality, geographical diversification, and tenant covenant strength.",
+      "REIT Finance Policy â€” Section 3.3: Loan agreements must include maintenance covenants covering interest coverage ratio and LTV ratio. Annual independent property valuations must be obtained from appraisers approved by the firm."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of financial crime in correspondent banking?",
+    "ground_truth": "Foreign correspondent banking relationships require annual EDD renewal. High-risk correspondent relationships require senior management approval and enhanced monitoring. Shell bank relationships are prohibited.",
+    "contexts": [
+      "Foreign Correspondent Banking Policy â€” Section 3.1: All foreign correspondent banking relationships must be subject to annual renewal of due diligence covering AML controls, regulatory standing, and financial condition.",
+      "Foreign Correspondent Banking Policy â€” Section 3.3: Relationships with correspondent institutions in high-risk jurisdictions require senior management approval at annual renewal. The firm is prohibited from maintaining relationships with shell banks."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in microfinance lending?",
+    "ground_truth": "Microfinance loans must disclose total cost of credit upfront. Group lending must document member obligations. Loan officers must complete anti-predatory lending training annually.",
+    "contexts": [
+      "Microfinance Lending Policy â€” Section 2.1: All microfinance loan products must disclose the total cost of credit including interest, fees, and insurance premiums in plain language before disbursement.",
+      "Microfinance Lending Policy â€” Section 2.3: Group lending arrangements must include documented individual member obligations. All loan officers must complete annual training on responsible lending and anti-predatory lending regulations."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in peer-to-peer lending platforms?",
+    "ground_truth": "P2P platforms must disclose default rates and expected returns to investors. Loans must be assessed for creditworthiness before listing. A wind-down plan must be maintained and tested annually.",
+    "contexts": [
+      "Peer-to-Peer Lending Policy â€” Section 3.1: Platforms must publish accurate and up-to-date default rates, loss rates, and expected returns for each loan category.",
+      "Peer-to-Peer Lending Policy â€” Section 3.3: All loans must pass a credit assessment before being made available to investors. The platform must maintain a wind-down plan ensuring orderly loan servicing can continue if the platform ceases operating, tested annually."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of model drift in machine learning credit models?",
+    "ground_truth": "ML credit models must be monitored monthly for population stability and model performance. Drift breaching thresholds must trigger a review and recalibration within 60 days. All ML models must be re-validated annually.",
+    "contexts": [
+      "Machine Learning Model Risk Policy â€” Section 5.1: Machine learning models used in credit underwriting must be subject to monthly monitoring covering population stability indices and key performance metrics.",
+      "Machine Learning Model Risk Policy â€” Section 5.3: Where monitoring identifies model drift in excess of defined thresholds, an automatic model review must be triggered and recalibration completed within 60 days. All ML credit models must undergo full independent re-validation at least annually."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in film and media finance?",
+    "ground_truth": "Film finance requires completion bond coverage, chain of title verification, and distribution agreement analysis. Financing must not exceed 80% of the verified production budget. Tax credit receivables must be verified by specialist counsel.",
+    "contexts": [
+      "Film Finance Policy â€” Section 3.1: Film financing must be supported by a completion bond, verified chain of title, and analysis of distribution agreements underpinning revenue projections.",
+      "Film Finance Policy â€” Section 3.3: Financing must not exceed 80% of the independently verified production budget. Where tax credit receivables are used as collateral their validity must be verified by specialist legal counsel."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of regulatory capital arbitrage?",
+    "ground_truth": "Transactions structured primarily to reduce regulatory capital without corresponding economic substance are prohibited. The Capital Markets Approval Committee must review any transaction where capital relief is a primary objective.",
+    "contexts": [
+      "Capital Arbitrage Prevention Policy â€” Section 2.1: The firm prohibits transactions whose primary purpose is to reduce regulatory capital without corresponding transfer of economic risk.",
+      "Capital Arbitrage Prevention Policy â€” Section 2.3: Any transaction in which capital reduction is a primary objective must be reviewed by the Capital Markets Approval Committee before execution."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in agricultural lending?",
+    "ground_truth": "Agricultural loans must assess commodity price risk, weather risk, and land valuation. Crop insurance must be verified at origination. Seasonal credit facilities must be reviewed annually before renewal.",
+    "contexts": [
+      "Agricultural Lending Policy â€” Section 3.1: Credit analysis for agricultural loans must include assessment of commodity price risk, weather and climate exposure, and land valuation by independent appraisal.",
+      "Agricultural Lending Policy â€” Section 3.3: Borrowers must maintain crop insurance approved by the firm as a condition of agricultural credit facilities. Seasonal operating credit facilities must be subject to an annual review and renewal process."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing benchmark manipulation risk?",
+    "ground_truth": "Benchmark submissions must be based on bona fide transactions or expert judgement. Submissions must be reviewed by a Compliance supervisor before transmission. Communications around benchmark setting must be retained for 5 years.",
+    "contexts": [
+      "Benchmark Submission Policy â€” Section 2.1: All benchmark submissions must be based on bona fide market transactions or expert judgement anchored to observable market data.",
+      "Benchmark Submission Policy â€” Section 2.3: Submissions must be approved by a designated Compliance supervisor before transmission. All related communications must be monitored and retained for a minimum of five years."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of excessive credit growth?",
+    "ground_truth": "Institutions must monitor credit growth monthly. Portfolio growth exceeding 20% year-on-year requires Risk Committee review and ICAAP update. Rapid credit growth must be considered when setting the countercyclical capital buffer.",
+    "contexts": [
+      "Credit Growth Risk Policy â€” Section 3.1: The firm must monitor total credit portfolio growth on a monthly basis tracking year-on-year growth rates by portfolio segment.",
+      "Credit Growth Risk Policy â€” Section 3.3: Where total loan portfolio growth exceeds 20% annualised, a Risk Committee review must be conducted and the ICAAP updated to reflect the increased risk profile."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in CLO investments?",
+    "ground_truth": "CLO tranche investments require Credit Committee approval and documented analysis of underlying loan pool quality, manager track record, and tranche attachment points. Only senior tranches may be held in the investment portfolio.",
+    "contexts": [
+      "CLO Investment Policy â€” Section 4.1: Investment in any CLO tranche requires Credit Committee approval and documented analysis of the underlying loan pool quality, CLO manager track record, and credit enhancement at each tranche level.",
+      "CLO Investment Policy â€” Section 4.3: CLO positions must be stress tested quarterly. Only senior-ranked CLO tranches are permitted in the investment portfolio; mezzanine and equity tranches are excluded."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in project finance?",
+    "ground_truth": "Project finance requires independent technical and environmental due diligence. Cash flows must be stress tested under downside scenarios. Financial covenants must include DSCR maintenance tests with cure periods.",
+    "contexts": [
+      "Project Finance Policy â€” Section 5.1: All project finance transactions must be supported by independent technical due diligence and an independent environmental and social impact assessment.",
+      "Project Finance Policy â€” Section 5.3: Cash flow projections must be stress tested under at least two downside scenarios. Loan agreements must include a minimum DSCR maintenance covenant with defined cure periods for breaches."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in leveraged lending?",
+    "ground_truth": "Leveraged loans are defined as loans to borrowers with total debt-to-EBITDA exceeding 4x and require senior credit officer approval. Aggregate leveraged lending must not exceed 15% of the total corporate loan portfolio.",
+    "contexts": [
+      "Leveraged Lending Policy â€” Section 4.1: Leveraged loans are credit facilities to borrowers whose total debt-to-EBITDA ratio including the proposed facility exceeds 4.0x at origination.",
+      "Leveraged Lending Policy â€” Section 4.3: Leveraged lending transactions require approval from a senior credit officer. The aggregate leveraged loan portfolio must not exceed 15% of total corporate loan outstandings."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in securities lending?",
+    "ground_truth": "Securities lending must be fully collateralised at a minimum of 102% of the market value of lent securities. Collateral must be marked to market daily. Transactions must be governed by master securities lending agreements.",
+    "contexts": [
+      "Securities Lending Policy â€” Section 3.1: All securities lending transactions must be collateralised at a minimum of 102% of the market value of the lent securities, marked to market daily.",
+      "Securities Lending Policy â€” Section 3.3: Counterparties must be pre-approved by the Credit Committee. All transactions must be governed by a Master Securities Lending Agreement. Collateral eligibility must comply with the approved collateral schedule."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of money market fund investments?",
+    "ground_truth": "Investments are restricted to VNAV and LVNAV funds rated AAAmmf by at least one NRSRO. No more than 10% of the liquidity portfolio may be held in funds from any single manager.",
+    "contexts": [
+      "Money Market Fund Investment Policy â€” Section 2.1: The firm may only invest in VNAV or LVNAV money market funds carrying a rating of AAAmmf from at least one NRSRO.",
+      "Money Market Fund Investment Policy â€” Section 2.3: Investments from any single fund manager must not exceed 10% of the total liquidity portfolio. Funds must be reviewed for continued eligibility quarterly."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in trade repository reporting?",
+    "ground_truth": "Reportable OTC derivatives must be reported to an approved trade repository by end of day T+1. Records must be reconciled monthly. Reporting errors must be corrected within 5 business days.",
+    "contexts": [
+      "Trade Repository Reporting Policy â€” Section 4.1: OTC derivatives subject to mandatory reporting must be reported to a registered trade repository by end of day T+1.",
+      "Trade Repository Reporting Policy â€” Section 4.3: Records at the trade repository must be reconciled against internal books monthly. Reporting errors must be corrected and resubmitted within 5 business days."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks associated with Payment Services Directive compliance?",
+    "ground_truth": "Payment service providers must implement Strong Customer Authentication for remote electronic payments. SCA exemptions must be documented. Transaction monitoring must meet required fraud rate thresholds.",
+    "contexts": [
+      "PSD2 Compliance Policy â€” Section 3.1: Payment service providers must apply Strong Customer Authentication combining at least two of the following: knowledge, possession, and inherence.",
+      "PSD2 Compliance Policy â€” Section 3.3: SCA exemptions must be applied only on the basis of a documented regulatory exemption subject to monitoring of associated fraud rates remaining below regulatory technical standard thresholds."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of greenwashing in ESG products?",
+    "ground_truth": "ESG-labelled products must have documented investment criteria aligned with the stated ESG classification. ESG claims must be reviewed by Compliance before publication. Annual ESG performance reports must be published for each ESG product.",
+    "contexts": [
+      "ESG Product Integrity Policy â€” Section 1.1: ESG-labelled products must have clearly documented investment criteria consistent with the stated ESG classification and applicable regulatory definitions.",
+      "ESG Product Integrity Policy â€” Section 1.3: All ESG claims in marketing materials must be reviewed and approved by Compliance to ensure accuracy. An annual ESG performance report must be published for each ESG-labelled product."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing open banking and API security risks?",
+    "ground_truth": "Third-party providers must be registered with the relevant regulator and meet technical security standards to access open banking APIs. Customers must be able to revoke third-party access at any time. API security must be penetration tested annually.",
+    "contexts": [
+      "Open Banking Risk Policy â€” Section 2.1: Third-party providers accessing customer data via open banking APIs must be registered with the relevant financial regulator and meet the firm's technical security requirements.",
+      "Open Banking Risk Policy â€” Section 2.3: Customers must be able to revoke third-party access at any time through the digital banking interface. Open banking API security must be independently penetration tested at least annually."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing risks in CBDC operations?",
+    "ground_truth": "Participation in CBDC programmes requires regulatory approval and Board authorisation. CBDC holdings must be treated as central bank money for liquidity purposes. Technical integration must meet the central bank's API and security specifications.",
+    "contexts": [
+      "CBDC Participation Policy â€” Section 1.1: The firm may only participate in CBDC programmes with regulatory approval and Board of Directors authorisation.",
+      "CBDC Participation Policy â€” Section 1.3: CBDC holdings shall be treated as central bank reserves and included in Level 1 HQLA. Technical integrations with CBDC infrastructure must comply with the central bank's API specifications and security requirements."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of climate-related stress testing?",
+    "ground_truth": "Institutions must conduct annual climate stress tests over a minimum 10-year horizon covering transition and physical risk scenarios. Results must inform capital planning and be reported to the Board and supervisory authority.",
+    "contexts": [
+      "Climate Stress Testing Policy â€” Section 2.1: Institutions must conduct climate stress tests at least annually incorporating both transition and physical risk scenarios over a forward-looking horizon of at least 10 years.",
+      "Climate Stress Testing Policy â€” Section 2.3: Climate stress test results must be used to inform capital planning decisions. Results must be presented to the Board and submitted to the supervisory authority as part of the annual supervisory reporting cycle."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing cross-border data transfer risks?",
+    "ground_truth": "Personal data may only be transferred outside the EEA if the destination has an adequacy decision or appropriate safeguards such as SCCs are in place. A transfer impact assessment must be completed before relying on SCCs.",
+    "contexts": [
+      "Cross-Border Data Transfer Policy â€” Section 2.1: Personal data may only be transferred outside the EEA where the destination country has an adequacy decision or appropriate safeguards including standard contractual clauses are in place.",
+      "Cross-Border Data Transfer Policy â€” Section 2.3: Before relying on standard contractual clauses, the firm must conduct a Transfer Impact Assessment evaluating the laws and practices of the destination country."
+    ]
+  },
+  {
+    "question": "What are the requirements for managing the risk of inadequate financial promotions?",
+    "ground_truth": "All financial promotions must be approved by an authorised person before issue, must be fair clear and not misleading, include past performance warnings where relevant, and approval records must be retained for three years.",
+    "contexts": [
+      "Financial Promotions Policy — Section 2.1: All financial promotions must be approved by an appropriately authorised person before issue in accordance with applicable regulations.",
+      "Financial Promotions Policy — Section 2.3: Promotions must be fair, clear, and not misleading. Promotions referencing past performance must include a prominent past performance warning. Approval records must be retained for a minimum of three years."
+    ]
+  }
+]

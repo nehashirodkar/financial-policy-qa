@@ -1,0 +1,33 @@
+# Core
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# LangChain / LangGraph
+langchain
+langchain-aws
+langchain-community
+langgraph
+langsmith
+
+# Pinecone (hybrid search)
+pinecone
+pinecone-text
+
+# AWS
+boto3
+botocore
+
+# Guardrails
+guardrails-ai
+
+# Evaluation
+ragas
+datasets
+
+# Utilities
+tiktoken
+httpx
+pdfplumber
+locust

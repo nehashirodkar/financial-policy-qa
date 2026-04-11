@@ -1,0 +1,23 @@
+CAPITAL ADEQUACY AND REGULATORY CAPITAL POLICY
+Version 2.4 | Effective Date: January 1, 2024
+
+Section 2.1 — Minimum Capital Requirements
+Institutions must maintain a minimum Total Capital Ratio of 8% of risk-weighted assets at all times. Failure to maintain minimum capital ratios must be reported to the prudential regulator within 3 business days.
+
+Section 2.2 — CET1 and Tier 1 Requirements
+The minimum Common Equity Tier 1 (CET1) ratio is 4.5% and the minimum Tier 1 ratio is 6%. A Capital Conservation Buffer of 2.5% CET1 must also be maintained, resulting in an effective minimum CET1 ratio of 7% under normal conditions.
+
+Section 2.3 — Tier 1 Capital Definition
+Tier 1 capital comprises Common Equity Tier 1 (CET1) capital and Additional Tier 1 (AT1) capital instruments approved by the regulator. CET1 capital includes fully paid-up common shares, retained earnings, accumulated other comprehensive income, and other disclosed reserves, net of regulatory deductions including goodwill, intangible assets, and deferred tax assets.
+
+Section 2.4 — Capital Conservation Buffer
+When the combined buffer requirement is not met in full, the firm must calculate a Maximum Distributable Amount and restrict dividends, share buybacks, and discretionary variable remuneration accordingly, until buffers are restored.
+
+Section 2.5 — Leverage Ratio
+The firm must maintain a leverage ratio of at least 3%, calculated as Tier 1 capital divided by the total leverage ratio exposure measure. G-SII institutions must maintain an additional leverage ratio buffer equal to 50% of the applicable G-SII capital buffer. The leverage ratio must be reported to the supervisory authority quarterly.
+
+Section 2.6 — ICAAP Requirements
+The firm must conduct an Internal Capital Adequacy Assessment Process (ICAAP) at least annually. The ICAAP document must be approved by the Board of Directors and made available to the supervisory authority upon request. The ICAAP must identify and assess all material risks, demonstrate capital adequacy under stress scenarios, and establish internal capital targets that exceed regulatory minimums.
+
+Section 2.7 — Capital Planning
+The firm must prepare a capital plan covering a minimum forward horizon of three years, updated and approved by the Board annually. The capital plan must demonstrate projected capital adequacy under stress scenarios. Proposed dividends or share buybacks must be assessed against capital plan projections before Board approval.

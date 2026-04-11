@@ -1,0 +1,44 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+
+Description: Financial Policy Q&A — FastAPI on Lambda + API Gateway
+
+Globals:
+  Function:
+    Runtime: python3.11
+    Timeout: 30
+    MemorySize: 1024
+    Environment:
+      Variables:
+        AWS_REGION_NAME: !Ref AWS::Region
+        PINECONE_INDEX_NAME: financial-policy-index
+        LANGCHAIN_TRACING_V2: "true"
+        LANGCHAIN_PROJECT: financial-policy-qa
+
+Resources:
+  FinancialQAFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: financial-policy-qa
+      CodeUri: ../
+      Handler: app.main.handler
+      Description: Multi-agent financial policy Q&A
+      Policies:
+        - AmazonBedrockFullAccess
+        - AWSSecretsManagerReadWrite
+      Events:
+        ApiRoot:
+          Type: Api
+          Properties:
+            Path: /{proxy+}
+            Method: ANY
+        Health:
+          Type: Api
+          Properties:
+            Path: /health
+            Method: GET
+
+Outputs:
+  ApiEndpoint:
+    Description: "API Gateway endpoint URL"
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"

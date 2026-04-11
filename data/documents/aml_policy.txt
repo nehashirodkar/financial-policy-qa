@@ -1,0 +1,26 @@
+ANTI-MONEY LAUNDERING AND FINANCIAL CRIME COMPLIANCE POLICY
+Version 5.2 | Effective Date: January 1, 2024
+
+Section 1.1 — AML Program Requirements
+All registered broker-dealers must maintain a written Anti-Money Laundering (AML) compliance program approved by senior management, encompassing customer identification procedures (CIP) consistent with FinCEN requirements.
+
+Section 1.2 — Customer Identification Procedures
+The firm must obtain and verify the certificate of incorporation, constitutional documents, and identify all beneficial owners with 25% or more ownership or control for corporate clients. For individual clients, government-issued photo identification and proof of address are required.
+
+Section 1.3 — AML Program Components
+The AML program must include: (a) monitoring of customer transactions for suspicious activity and timely filing of Suspicious Activity Reports (SARs); (b) annual AML training for all relevant personnel; (c) independent testing of the AML program by an internal audit function or qualified third party every 12 to 18 months.
+
+Section 1.4 — Suspicious Activity Reporting
+Any employee who knows or suspects that a transaction involves the proceeds of crime must submit an internal suspicious activity report to the Money Laundering Reporting Officer (MLRO) within one business day of forming that suspicion. Upon receiving an internal report, the MLRO must evaluate it and, where there are reasonable grounds for suspicion, file a SAR with the relevant financial intelligence unit within 3 business days. Employees are prohibited from tipping off the subject of the report.
+
+Section 2.1 — KYC Requirements
+KYC for new corporate clients requires verification of legal entity registration, identification of beneficial owners holding 25% or more, source of funds documentation, and sanctions screening. High-risk clients require enhanced due diligence and senior management approval.
+
+Section 2.2 — Sanctions Compliance
+All customers, counterparties, and transactions must be screened against applicable sanctions lists maintained by OFAC, the EU, HM Treasury, and the UN Security Council prior to onboarding. Potential matches must be escalated to the Compliance department immediately and the transaction must be blocked pending a determination.
+
+Section 3.1 — Periodic Review
+Customer due diligence must be reviewed on a risk-based schedule. High-risk customers must be reviewed annually, medium-risk customers every two years, and low-risk customers every five years. A triggered review must be conducted promptly when a material change in a customer's risk profile is identified.
+
+Section 4.1 — Correspondent Banking
+The firm must conduct enhanced due diligence on prospective respondent institutions before establishing correspondent banking relationships, including assessment of ownership and management, AML controls, regulatory oversight, and jurisdictional risk. The firm is prohibited from establishing or maintaining correspondent banking relationships with shell banks.

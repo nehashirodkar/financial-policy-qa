@@ -1,0 +1,64 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Financial Policy Q&A — FastAPI on AWS Lambda
+
+Globals:
+  Function:
+    Timeout: 60
+    MemorySize: 1024
+    Environment:
+      Variables:
+        AWS_REGION_NAME: !Ref AWS::Region
+        BEDROCK_MODEL_ID: !Ref BedrockModelId
+        PINECONE_API_KEY: !Ref PineconeApiKey
+        PINECONE_INDEX_NAME: !Ref PineconeIndexName
+        LANGCHAIN_API_KEY: !Ref LangchainApiKey
+        LANGCHAIN_PROJECT: financial-policy-qa
+        LANGCHAIN_TRACING_V2: "true"
+        LOG_LEVEL: INFO
+
+Parameters:
+  BedrockModelId:
+    Type: String
+    Default: us.anthropic.claude-sonnet-4-20250514-v1:0
+  PineconeApiKey:
+    Type: String
+    NoEcho: true
+  PineconeIndexName:
+    Type: String
+    Default: financial-policy-index
+  LangchainApiKey:
+    Type: String
+    NoEcho: true
+
+Resources:
+  FinancialPolicyQAFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: financial-policy-qa
+      CodeUri: .
+      Handler: app.main.handler
+      Runtime: python3.11
+      Architectures:
+        - x86_64
+      Policies:
+        - AmazonBedrockFullAccess
+      Events:
+        ApiQuery:
+          Type: Api
+          Properties:
+            Path: /query
+            Method: post
+        ApiHealth:
+          Type: Api
+          Properties:
+            Path: /health
+            Method: get
+
+Outputs:
+  ApiUrl:
+    Description: API Gateway endpoint URL
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
+  FunctionArn:
+    Description: Lambda Function ARN
+    Value: !GetAtt FinancialPolicyQAFunction.Arn

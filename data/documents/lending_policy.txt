@@ -1,0 +1,23 @@
+RESIDENTIAL LENDING POLICY
+Version 3.1 | Effective Date: January 1, 2024
+
+Section 4.1 — Purpose
+This policy governs the origination and management of residential mortgage loans. It applies to all staff involved in lending activities.
+
+Section 4.2 — Loan-to-Value Ratios
+Conventional residential mortgage loans shall not exceed a loan-to-value (LTV) ratio of 80% at origination. Loans with an LTV above 80% require private mortgage insurance (PMI) and are subject to a maximum LTV of 95%. No residential mortgage loan may be originated with an LTV exceeding 95%.
+
+Section 4.3 — LTV Calculation
+The LTV ratio is calculated as the loan amount divided by the lesser of the appraised value or the purchase price of the property. Appraisals must be conducted by an independent appraiser approved by the firm.
+
+Section 4.4 — Borrower Eligibility
+Borrowers must demonstrate a minimum credit score of 620 for conventional loans. A minimum credit score of 580 is required for FHA-insured loans. Debt-to-income ratios must not exceed 43% for standard products.
+
+Section 4.5 — Documentation Requirements
+All mortgage applications must include verified income documentation, two years of tax returns, three months of bank statements, and a satisfactory property appraisal. Self-employed borrowers must provide two years of business tax returns and a year-to-date profit and loss statement.
+
+Section 4.6 — Approval Authority
+Loans up to $500,000 may be approved by a Senior Loan Officer. Loans between $500,000 and $2,000,000 require Credit Committee approval. Loans exceeding $2,000,000 require Board approval.
+
+Section 4.7 — Forbearance Policy
+Forbearance measures may be extended to borrowers experiencing financial difficulty where the firm determines that the borrower remains viable and capable of meeting modified terms. Any forbearance arrangement must be documented in the loan file, flagged in the credit management information system, and limited to an initial period of 12 months. Forborne exposures are subject to enhanced monitoring and must be reviewed at least quarterly.

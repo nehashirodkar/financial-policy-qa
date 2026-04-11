@@ -1,0 +1,26 @@
+LIQUIDITY RISK MANAGEMENT POLICY
+Version 3.3 | Effective Date: January 1, 2024
+
+Section 4.1 — Liquidity Coverage Ratio
+The Liquidity Coverage Ratio (LCR) is defined as: LCR = HQLA / Total Net Cash Outflows over 30-day stress period x 100. Institutions must maintain an LCR of at least 100% at all times.
+
+Section 4.2 — HQLA Requirements
+High-quality liquid assets must be unencumbered and held in designated accounts segregated from assets used for operational purposes. Level 1 assets include central bank reserves and government bonds. Level 2A assets include certain government-guaranteed bonds and covered bonds subject to a 15% haircut. Level 2B assets are subject to higher haircuts and are capped at 15% of the HQLA buffer.
+
+Section 4.3 — LCR Reporting
+The LCR must be reported to the supervisory authority on a monthly basis, no later than the 15th business day following the reference date.
+
+Section 5.1 — Net Stable Funding Ratio
+The Net Stable Funding Ratio (NSFR) is defined as: NSFR = Available Stable Funding (ASF) / Required Stable Funding (RSF) x 100. Institutions must maintain an NSFR of at least 100% at all times.
+
+Section 5.2 — NSFR Reporting
+The NSFR must be reported to the supervisory authority on a quarterly basis, no later than 30 days after the end of each fiscal quarter.
+
+Section 3.1 — Liquidity Stress Testing
+Institutions must maintain a liquidity buffer of unencumbered high-quality liquid assets (HQLA) sufficient to meet net cash outflows under a combined 30-day institutional and market-wide liquidity stress scenario. The composition and adequacy of the liquidity buffer must be reviewed by the Asset and Liability Committee (ALCO) monthly.
+
+Section 3.2 — Intraday Liquidity
+Institutions must have the capacity to monitor and manage intraday liquidity in real time to ensure they can meet all payment and settlement obligations throughout the business day. Monthly reports on intraday liquidity usage must be submitted to ALCO. The firm must maintain a minimum intraday liquidity buffer as defined in the liquidity risk appetite.
+
+Section 3.3 — Funding Concentration
+Funding from any single counterparty or source must not exceed 10% of the firm's total funding base. Short-term wholesale funding with a maturity of 30 days or less must not exceed 30% of total liabilities. Funding concentration metrics must be reported to the Asset and Liability Committee on a monthly basis.

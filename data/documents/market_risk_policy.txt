@@ -1,0 +1,23 @@
+MARKET RISK MANAGEMENT POLICY
+Version 4.0 | Effective Date: January 1, 2024
+
+Section 6.1 — Purpose and Scope
+This policy governs the management of market risk across all trading and banking book positions. It applies to all business lines with exposure to interest rate, foreign exchange, equity, and commodity risk.
+
+Section 6.2 — Stress Testing Requirements
+Institutions must conduct stress testing of market risk exposures at a minimum quarterly frequency using at least three distinct scenarios.
+
+Section 6.3 — Stress Test Scenarios
+Required scenarios are: (1) a historical stress scenario replicating an identified past market dislocation such as the 2008 financial crisis; (2) a hypothetical forward-looking adverse scenario; and (3) an institution-specific scenario reflecting the firm's unique risk concentrations. Stress test results must be presented to the Risk Committee and the Board of Directors within 15 days of quarter-end.
+
+Section 6.4 — VaR Model Requirements
+VaR models must be backtested daily. The 1-day 99% VaR estimate must be compared to the actual daily profit or loss for each business day. Four or fewer exceptions in a 250 trading-day window places the model in the green zone. Five to nine exceptions trigger a yellow zone review and possible multiplier increase. Ten or more exceptions require mandatory model recalibration.
+
+Section 6.5 — Market Risk Limits
+The suite of market risk limits including VaR limits, Greek sensitivity limits, and stop-loss limits must be approved by the Board Risk Committee on an annual basis. Limit utilisation must be calculated and reported to risk management on a daily basis. Any breach of a limit must be escalated immediately to the Chief Risk Officer and resolved within 2 business days.
+
+Section 7.1 — Records Retention
+All trading records, including but not limited to order tickets, trade confirmations, and electronic communications related to the execution of trades, must be retained for a minimum period of seven (7) years from the date of the transaction. Records must be stored in a write-once, read-many (WORM) compliant format and must be producible to the relevant regulatory authority within 24 hours of a formal request.
+
+Section 7.2 — Reporting Requirements
+Institutions must file quarterly regulatory reports no later than 30 calendar days after the close of each fiscal quarter. Required disclosures include Capital Adequacy Ratio, Risk-Weighted Assets by category, Liquidity Coverage Ratio, Net Stable Funding Ratio, and leverage ratio. Late submission of required quarterly reports incurs a penalty of $500 per calendar day for each of the first 10 days past the filing deadline. After 10 days, the daily penalty increases to $1,000. Total penalties for any single quarter shall not exceed $50,000.
