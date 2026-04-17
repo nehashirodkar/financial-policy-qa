@@ -2,7 +2,9 @@
 Unit tests for retrieval utilities.
 """
 
-from app.retrieval.chunking import chunk_document, get_splitter
+import pytest
+
+from app.retrieval.chunking import chunk_document, get_splitter, CHUNKING_STRATEGIES
 
 
 def test_chunk_document_policy():
@@ -28,3 +30,24 @@ def test_chunk_metadata_preserved():
     for c in chunks:
         assert c["metadata"]["source"] == "annual_report_2024.txt"
         assert "chunk_index" in c["metadata"]
+
+
+# ── Chunking strategy tests ────────────────────────────────────────────────────
+@pytest.mark.parametrize("strategy", CHUNKING_STRATEGIES)
+def test_chunking_strategies_produce_chunks(strategy):
+    text = "First sentence here. Second sentence here. Third sentence here. " * 30
+    chunks = chunk_document(text, doc_type="policy", strategy=strategy)
+    assert len(chunks) > 0
+    assert all(c["metadata"]["chunking_strategy"] == strategy for c in chunks)
+
+
+def test_sentence_window_preserves_neighbors():
+    text = "Sentence one. Sentence two. Sentence three. Sentence four. Sentence five."
+    chunks = chunk_document(text, strategy="sentence-window")
+    # Middle sentence chunk should contain neighboring sentences too
+    assert any("Sentence two" in c["text"] and "Sentence four" in c["text"] for c in chunks)
+
+
+def test_unknown_strategy_raises():
+    with pytest.raises(ValueError):
+        chunk_document("some text", strategy="random-strategy")

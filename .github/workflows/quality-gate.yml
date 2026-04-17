@@ -1,0 +1,86 @@
+name: RAGAS Quality Gate
+
+on:
+  pull_request:
+    branches: [main, master]
+    paths:
+      - 'app/**'
+      - 'scripts/**'
+      - 'data/golden_set.json'
+      - 'requirements.txt'
+  workflow_dispatch:
+
+env:
+  # Minimum acceptable RAGAS scores — drop below these and CI blocks the merge.
+  MIN_ANSWER_RELEVANCY: 0.80
+  MIN_FAITHFULNESS: 0.85
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run pytest
+        run: |
+          export PYTHONPATH=$PWD
+          pytest tests/ -v
+
+  ragas-quality-gate:
+    runs-on: ubuntu-latest
+    needs: unit-tests
+    # Secrets only populated on same-repo PRs — skip on forks
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository || github.event_name == 'workflow_dispatch' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Run RAGAS evaluation
+        env:
+          AWS_ACCESS_KEY_ID:     ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION_NAME:       ${{ secrets.AWS_REGION_NAME }}
+          BEDROCK_MODEL_ID:      ${{ secrets.BEDROCK_MODEL_ID }}
+          PINECONE_API_KEY:      ${{ secrets.PINECONE_API_KEY }}
+          PINECONE_INDEX_NAME:   ${{ secrets.PINECONE_INDEX_NAME }}
+          LANGCHAIN_API_KEY:     ${{ secrets.LANGCHAIN_API_KEY }}
+        run: |
+          export PYTHONPATH=$PWD
+          python scripts/compare_retrieval.py --n 5 | tee ragas_output.txt
+
+      - name: Enforce quality thresholds
+        run: |
+          python - <<'EOF'
+          import re, sys, os
+
+          with open("ragas_output.txt") as f:
+              out = f.read()
+
+          # Pull "96.0% (hybrid)" style numbers out of the script's stdout.
+          m = re.search(r"(\d+\.\d+)%\s*\(hybrid\)", out)
+          ar_pct = float(m.group(1)) if m else 0.0
+          ar = ar_pct / 100
+
+          min_ar = float(os.environ["MIN_ANSWER_RELEVANCY"])
+          print(f"Answer relevancy: {ar:.3f}  (min required: {min_ar})")
+
+          if ar < min_ar:
+              print(f"::error::QUALITY GATE FAILED — answer_relevancy {ar:.3f} < {min_ar}")
+              sys.exit(1)
+
+          print("Quality gate passed.")
+          EOF
+        env:
+          MIN_ANSWER_RELEVANCY: ${{ env.MIN_ANSWER_RELEVANCY }}
+          MIN_FAITHFULNESS:     ${{ env.MIN_FAITHFULNESS }}

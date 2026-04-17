@@ -12,3 +12,8 @@ build/
 .DS_Store
 *.log
 .aws/
+bm25_params.json
+*.pkl
+*.bin
+ragas_output.txt
+.vscode/
