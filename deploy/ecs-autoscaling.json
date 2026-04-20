@@ -1,0 +1,56 @@
+{
+  "description": "ECS service + application auto-scaling policy. Apply via aws CLI or CloudFormation.",
+  "service": {
+    "cluster": "financial-policy-qa",
+    "serviceName": "financial-policy-qa-svc",
+    "taskDefinition": "financial-policy-qa",
+    "desiredCount": 2,
+    "launchType": "FARGATE",
+    "networkConfiguration": {
+      "awsvpcConfiguration": {
+        "subnets": ["<SUBNET_ID_1>", "<SUBNET_ID_2>"],
+        "securityGroups": ["<SECURITY_GROUP_ID>"],
+        "assignPublicIp": "ENABLED"
+      }
+    },
+    "loadBalancers": [
+      {
+        "targetGroupArn": "arn:aws:elasticloadbalancing:<REGION>:<ACCOUNT_ID>:targetgroup/financial-policy-qa-tg/<ID>",
+        "containerName": "financial-policy-qa",
+        "containerPort": 8000
+      }
+    ]
+  },
+  "autoScalingTarget": {
+    "MinCapacity": 2,
+    "MaxCapacity": 20,
+    "ResourceId": "service/financial-policy-qa/financial-policy-qa-svc",
+    "ScalableDimension": "ecs:service:DesiredCount",
+    "ServiceNamespace": "ecs"
+  },
+  "cpuScalingPolicy": {
+    "PolicyName": "cpu-target-tracking-70",
+    "PolicyType": "TargetTrackingScaling",
+    "TargetTrackingScalingPolicyConfiguration": {
+      "TargetValue": 70.0,
+      "PredefinedMetricSpecification": {
+        "PredefinedMetricType": "ECSServiceAverageCPUUtilization"
+      },
+      "ScaleInCooldown": 60,
+      "ScaleOutCooldown": 30
+    }
+  },
+  "requestCountScalingPolicy": {
+    "PolicyName": "alb-request-count-target-1000",
+    "PolicyType": "TargetTrackingScaling",
+    "TargetTrackingScalingPolicyConfiguration": {
+      "TargetValue": 1000.0,
+      "PredefinedMetricSpecification": {
+        "PredefinedMetricType": "ALBRequestCountPerTarget",
+        "ResourceLabel": "app/<ALB_NAME>/<ALB_ID>/targetgroup/financial-policy-qa-tg/<TG_ID>"
+      },
+      "ScaleInCooldown": 60,
+      "ScaleOutCooldown": 30
+    }
+  }
+}

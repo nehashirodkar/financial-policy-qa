@@ -1,0 +1,58 @@
+{
+  "family": "financial-policy-qa",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "1024",
+  "memory": "2048",
+  "executionRoleArn": "arn:aws:iam::<ACCOUNT_ID>:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::<ACCOUNT_ID>:role/FinancialPolicyQATaskRole",
+  "containerDefinitions": [
+    {
+      "name": "financial-policy-qa",
+      "image": "<ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/financial-policy-qa:latest",
+      "cpu": 1024,
+      "memory": 2048,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8000,
+          "protocol": "tcp"
+        }
+      ],
+      "environment": [
+        { "name": "LOG_LEVEL", "value": "INFO" },
+        { "name": "AWS_REGION_NAME", "value": "<REGION>" },
+        { "name": "PINECONE_INDEX_NAME", "value": "financial-policy-index" },
+        { "name": "BEDROCK_MODEL_ID", "value": "us.anthropic.claude-sonnet-4-20250514-v1:0" }
+      ],
+      "secrets": [
+        {
+          "name": "PINECONE_API_KEY",
+          "valueFrom": "arn:aws:secretsmanager:<REGION>:<ACCOUNT_ID>:secret:financial-policy-qa/pinecone-api-key"
+        },
+        {
+          "name": "LANGCHAIN_API_KEY",
+          "valueFrom": "arn:aws:secretsmanager:<REGION>:<ACCOUNT_ID>:secret:financial-policy-qa/langsmith-api-key"
+        }
+      ],
+      "healthCheck": {
+        "command": [
+          "CMD-SHELL",
+          "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health').read()\" || exit 1"
+        ],
+        "interval": 30,
+        "timeout": 10,
+        "retries": 3,
+        "startPeriod": 30
+      },
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/financial-policy-qa",
+          "awslogs-region": "<REGION>",
+          "awslogs-stream-prefix": "api"
+        }
+      }
+    }
+  ]
+}
