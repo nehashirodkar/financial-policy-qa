@@ -2,6 +2,8 @@
 
 Production-grade RAG system for answering questions about financial policy and regulatory documents. Uses a multi-agent LangGraph workflow, hybrid dense+sparse retrieval, and live evaluation with Claude-as-judge.
 
+![demo](demo.gif)
+
 ---
 
 ## Highlights
