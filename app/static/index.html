@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Financial Policy Q&amp;A</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy:#0a2540;        /* deep banking navy */
+      --navy-2:#103a5e;
+      --emerald:#1b7a5a;     /* money green */
+      --gold:#c9a24b;        /* soft gold accent */
+      --paper:#faf7f1;       /* warm ivory */
+      --paper-2:#ffffff;
+      --ink:#1c2b36;
+      --muted:#6b7a87;
+      --line:#e7e0d4;
+      --line-2:#eef1f4;
+      --shadow:0 1px 2px rgba(10,37,64,.04), 0 8px 28px rgba(10,37,64,.07);
+    }
+    * { box-sizing:border-box; }
+    html,body { height:100%; }
+    body {
+      margin:0; color:var(--ink);
+      font-family:"Inter",-apple-system,Segoe UI,Roboto,sans-serif;
+      background:
+        radial-gradient(1100px 520px at 50% -10%, #fff 0%, rgba(255,255,255,0) 60%),
+        linear-gradient(180deg,#f6f1e7 0%, var(--paper) 38%, #f3ede1 100%);
+      background-attachment:fixed;
+      line-height:1.55;
+    }
+
+    /* top hairline + brand */
+    .topbar {
+      border-top:3px solid var(--gold);
+      background:rgba(255,255,255,.55);
+      backdrop-filter:saturate(140%) blur(6px);
+      border-bottom:1px solid var(--line);
+    }
+    .brand {
+      max-width:880px; margin:0 auto; padding:16px 22px;
+      display:flex; align-items:center; gap:12px;
+    }
+    .mark {
+      width:34px; height:34px; border-radius:9px; flex:none;
+      background:linear-gradient(145deg,var(--navy),var(--navy-2));
+      color:#fff; display:grid; place-items:center;
+      font-family:"Fraunces",serif; font-weight:600; font-size:18px;
+      box-shadow:0 4px 12px rgba(10,37,64,.25);
+    }
+    .brand .name { font-family:"Fraunces",serif; font-weight:600; font-size:16px; letter-spacing:.2px; }
+    .brand .tag { color:var(--muted); font-size:12.5px; }
+    .brand .spacer { margin-left:auto; }
+    .pill-live {
+      font-size:11.5px; color:var(--emerald); font-weight:600;
+      display:flex; align-items:center; gap:7px;
+      background:rgba(27,122,90,.09); border:1px solid rgba(27,122,90,.22);
+      padding:5px 11px; border-radius:999px;
+    }
+    .dot { width:7px; height:7px; border-radius:50%; background:var(--emerald);
+           box-shadow:0 0 0 0 rgba(27,122,90,.5); animation:pulse 2.4s infinite; }
+    @keyframes pulse { 0%{box-shadow:0 0 0 0 rgba(27,122,90,.45);} 70%{box-shadow:0 0 0 7px rgba(27,122,90,0);} 100%{box-shadow:0 0 0 0 rgba(27,122,90,0);} }
+
+    .wrap { max-width:880px; margin:0 auto; padding:46px 22px 90px; }
+
+    .hero { text-align:center; margin-bottom:34px; }
+    .hero .eyebrow {
+      font-size:12px; letter-spacing:2.4px; text-transform:uppercase;
+      color:var(--gold); font-weight:600; margin-bottom:12px;
+    }
+    .hero h1 {
+      font-family:"Fraunces",serif; font-weight:600;
+      font-size:40px; line-height:1.15; margin:0 0 12px;
+      color:var(--navy); letter-spacing:-.3px;
+    }
+    .hero p { color:var(--muted); margin:0 auto; max-width:560px; font-size:15px; }
+    .rule {
+      width:60px; height:2px; margin:20px auto 0;
+      background:linear-gradient(90deg,transparent,var(--gold),transparent);
+    }
+
+    .card {
+      background:var(--paper-2); border:1px solid var(--line);
+      border-radius:16px; padding:24px; box-shadow:var(--shadow);
+      margin-bottom:22px;
+    }
+
+    .field-label {
+      font-size:12px; letter-spacing:.6px; text-transform:uppercase;
+      color:var(--muted); font-weight:600; margin-bottom:9px; display:block;
+    }
+    textarea {
+      width:100%; min-height:96px; resize:vertical;
+      background:#fcfbf8; color:var(--ink);
+      border:1px solid var(--line); border-radius:11px;
+      padding:14px 15px; font-size:15.5px; font-family:inherit;
+      transition:border-color .15s, box-shadow .15s;
+    }
+    textarea:focus {
+      outline:none; border-color:var(--navy);
+      box-shadow:0 0 0 4px rgba(10,37,64,.08);
+    }
+    textarea::placeholder { color:#a9b3bc; }
+
+    .controls { display:flex; gap:14px; margin-top:16px; flex-wrap:wrap; align-items:flex-end; }
+    .ctrl { display:flex; flex-direction:column; gap:7px; }
+    .ctrl span { font-size:11.5px; letter-spacing:.5px; text-transform:uppercase; color:var(--muted); font-weight:600; }
+    input[type=number], select {
+      background:#fcfbf8; color:var(--ink);
+      border:1px solid var(--line); border-radius:9px;
+      padding:9px 11px; font-size:14px; font-family:inherit;
+    }
+    input[type=number] { width:74px; }
+    input:focus, select:focus { outline:none; border-color:var(--navy); box-shadow:0 0 0 3px rgba(10,37,64,.07); }
+
+    button#go {
+      margin-left:auto;
+      background:linear-gradient(145deg,var(--navy),var(--navy-2));
+      color:#fff; border:0; border-radius:11px;
+      padding:13px 30px; font-size:15px; font-weight:600;
+      font-family:inherit; cursor:pointer; letter-spacing:.2px;
+      box-shadow:0 6px 18px rgba(10,37,64,.22);
+      transition:transform .12s ease, box-shadow .12s ease, filter .12s ease;
+    }
+    button#go:hover:not(:disabled) { transform:translateY(-1px); box-shadow:0 9px 24px rgba(10,37,64,.28); filter:brightness(1.06); }
+    button#go:active:not(:disabled) { transform:translateY(0); }
+    button#go:disabled { opacity:.55; cursor:not-allowed; }
+
+    /* result */
+    #result { animation:rise .35s ease both; }
+    @keyframes rise { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
+    .answer-head {
+      display:flex; align-items:center; gap:10px; margin-bottom:14px;
+      font-family:"Fraunces",serif; font-size:18px; color:var(--navy);
+    }
+    .answer-head .badge {
+      font-family:"Inter",sans-serif; font-size:11px; font-weight:600;
+      letter-spacing:.6px; text-transform:uppercase; color:var(--emerald);
+      background:rgba(27,122,90,.09); border:1px solid rgba(27,122,90,.22);
+      padding:3px 9px; border-radius:999px; margin-left:auto;
+    }
+    .answer {
+      white-space:pre-wrap; font-size:15.5px; color:var(--ink);
+      border-left:3px solid var(--gold); padding:2px 0 2px 18px;
+    }
+    .answer b, .answer strong { color:var(--navy); }
+
+    .metrics {
+      display:flex; gap:12px; flex-wrap:wrap; margin-top:20px;
+    }
+    .metric {
+      flex:1 1 130px; background:#fcfbf8; border:1px solid var(--line);
+      border-radius:12px; padding:13px 15px;
+    }
+    .metric .k { font-size:11px; letter-spacing:.7px; text-transform:uppercase; color:var(--muted); font-weight:600; }
+    .metric .v { font-family:"Fraunces",serif; font-size:21px; color:var(--navy); margin-top:3px; }
+    .metric .v small { font-family:"Inter"; font-size:12px; color:var(--muted); font-weight:500; }
+
+    .src { margin-top:22px; border-top:1px solid var(--line-2); padding-top:18px; }
+    .src h4 {
+      margin:0 0 12px; font-size:11.5px; letter-spacing:1px;
+      text-transform:uppercase; color:var(--muted); font-weight:600;
+    }
+    .src-item {
+      background:#fcfbf8; border:1px solid var(--line);
+      border-radius:11px; padding:13px 15px; margin-bottom:10px;
+    }
+    .src-item .meta {
+      display:flex; align-items:center; gap:8px;
+      color:var(--navy); font-size:12.5px; font-weight:600; margin-bottom:6px;
+    }
+    .src-item .meta .score {
+      margin-left:auto; color:var(--emerald); font-weight:600;
+      background:rgba(27,122,90,.08); border-radius:999px; padding:2px 9px; font-size:11.5px;
+    }
+    .src-item .body { font-size:13.5px; color:#4a5963; line-height:1.5; }
+
+    .footer {
+      text-align:center; color:var(--muted); font-size:12.5px; margin-top:30px;
+    }
+    .footer b { color:var(--ink); font-weight:600; }
+
+    .hidden { display:none; }
+    .err { color:#b4302a; }
+    .spin {
+      display:inline-block; width:15px; height:15px;
+      border:2px solid rgba(10,37,64,.25); border-top-color:var(--navy);
+      border-radius:50%; animation:s .7s linear infinite;
+      vertical-align:-2px; margin-right:9px;
+    }
+    @keyframes s { to { transform:rotate(360deg); } }
+
+    @media (max-width:560px) {
+      .hero h1 { font-size:30px; }
+      button#go { margin-left:0; width:100%; }
+      .controls { gap:12px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="mark">₣</div>
+      <div>
+        <div class="name">Financial Policy&nbsp;Q&amp;A</div>
+        <div class="tag">Multi-agent retrieval over policy &amp; regulatory filings</div>
+      </div>
+      <div class="spacer"></div>
+      <div class="pill-live"><span class="dot"></span> Live</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">Regulatory Intelligence</div>
+      <h1>Ask anything about your<br />financial policy documents</h1>
+      <p>Grounded answers with cited sources, faithfulness scoring, and full cost &amp; latency transparency.</p>
+      <div class="rule"></div>
+    </section>
+
+    <div class="card">
+      <label class="field-label" for="q">Your question</label>
+      <textarea id="q" placeholder="e.g.  What is the minimum Liquidity Coverage Ratio required?"></textarea>
+      <div class="controls">
+        <div class="ctrl">
+          <span>Documents (top&nbsp;k)</span>
+          <input type="number" id="topk" value="5" min="1" max="20" />
+        </div>
+        <div class="ctrl">
+          <span>Document type</span>
+          <select id="dt">
+            <option value="">All documents</option>
+            <option value="policy">Policy</option>
+            <option value="regulation">Regulation</option>
+            <option value="report">Report</option>
+          </select>
+        </div>
+        <button id="go">Ask&nbsp;&rarr;</button>
+      </div>
+    </div>
+
+    <div id="result" class="card hidden">
+      <div class="answer-head">
+        Answer
+        <span class="badge">Grounded</span>
+      </div>
+      <div id="answer" class="answer"></div>
+      <div id="metrics" class="metrics"></div>
+      <div id="sources" class="src hidden"></div>
+    </div>
+
+    <div class="footer">
+      Powered by a <b>LangGraph</b> multi-agent workflow &middot; hybrid dense&nbsp;+&nbsp;BM25 retrieval &middot; Claude-as-judge faithfulness
+    </div>
+  </main>
+
+  <script>
+    const $ = id => document.getElementById(id);
+    const btn = $("go"), res = $("result");
+
+    async function ask() {
+      const query = $("q").value.trim();
+      if (query.length < 3) { $("q").focus(); return; }
+      const body = { query, top_k: Number($("topk").value) };
+      const dt = $("dt").value;
+      if (dt) body.doc_type = dt;
+
+      btn.disabled = true;
+      res.classList.remove("hidden");
+      res.style.animation = "none"; void res.offsetWidth; res.style.animation = "";
+      $("answer").innerHTML = '<span class="spin"></span>Consulting the documents…';
+      $("metrics").innerHTML = "";
+      $("sources").classList.add("hidden");
+
+      try {
+        const r = await fetch("/query", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body),
+        });
+        const data = await r.json();
+        if (!r.ok) throw new Error(data.detail || ("HTTP " + r.status));
+
+        $("answer").textContent = data.answer || "(no answer returned)";
+
+        const tc = data.token_cost || {};
+        const cost = tc.usd != null ? "$" + Number(tc.usd).toFixed(4) : "—";
+        const hs = data.hallucination_score;
+        const faith = (hs == null || hs < 0) ? "—" : Number(hs).toFixed(2);
+        $("metrics").innerHTML =
+          metric("Latency", data.latency_ms, "ms") +
+          metric("Est. cost", cost, "") +
+          metric("Faithfulness", faith, "") +
+          metric("Sources", (data.sources || []).length, "");
+
+        const srcs = data.sources || [];
+        if (srcs.length) {
+          $("sources").classList.remove("hidden");
+          $("sources").innerHTML =
+            "<h4>Cited sources</h4>" +
+            srcs.map(s => {
+              const t = (s.text || "");
+              return `<div class="src-item">
+                  <div class="meta">${esc(s.doc_id)}
+                    <span class="score">score ${Number(s.score).toFixed(3)}</span>
+                  </div>
+                  <div class="body">${esc(t.slice(0, 340))}${t.length > 340 ? "…" : ""}</div>
+                </div>`;
+            }).join("");
+        }
+      } catch (e) {
+        $("answer").innerHTML = '<span class="err">Error: ' + esc(e.message) + "</span>";
+      } finally {
+        btn.disabled = false;
+      }
+    }
+
+    function metric(k, v, unit) {
+      return `<div class="metric"><div class="k">${k}</div>
+        <div class="v">${v}${unit ? ' <small>' + unit + '</small>' : ''}</div></div>`;
+    }
+    function esc(s) {
+      return String(s).replace(/[&<>"]/g, c =>
+        ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+    }
+
+    btn.addEventListener("click", ask);
+    $("q").addEventListener("keydown", e => {
+      if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) ask();
+    });
+  </script>
+</body>
+</html>

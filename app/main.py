@@ -6,8 +6,10 @@ Deployed on AWS Lambda + API Gateway via Mangum adapter.
 
 import time
 import logging
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import FileResponse
 from mangum import Mangum
 
 from app.schemas.models import QueryRequest, QueryResponse, HealthResponse, SourceDocument
@@ -22,6 +24,14 @@ app = FastAPI(
     description="Multi-agent RAG system for financial policy documents.",
     version="1.0.0",
 )
+
+
+STATIC_DIR = Path(__file__).parent / "static"
+
+
+@app.get("/", include_in_schema=False)
+def index():
+    return FileResponse(STATIC_DIR / "index.html")
 
 
 @app.get("/health", response_model=HealthResponse)
